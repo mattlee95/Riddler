@@ -29,12 +29,12 @@ A list of probabilities for group sizes from 1 to 731 can be found in solution.t
 
 I employeed 2 methods of determining the group size at which you are greater than 50% likely to have a triple pair of birthdays: Simulation and Calculating the true probabilities
 
-####triple_birthday_simulate.py
+###triple_birthday_simulate.py
 
 For the methodology for simulating, I simulated each group size 1,000,000 times to determine close to the true probability for each group size.  Using this method I was able to determine a group size of 88 was the first point at which the probability was >50%
 
 
-####triple_birthday_statistics.py
+###triple_birthday_statistics.py
 
 For the methodology of calculating the true probabilities, I created a tree for all permutations of groups increasing in size 1 until the max size of 731.  A list off all the probabilities can be found it solution.txt.  Comments in triple_birthday_statistics.py describes the algorithm used to calculate the probabilities
 
