@@ -28,7 +28,7 @@ Full list of values and divisibility can be found in solution_19_101_538.log
 
 I solved this problem by created a program in python to determine whether or not a value was divisible by a set of denominations.
 Going off of this function I knew that once I found 19 consecutive values that were divisible all other values would be divisible since $19 was the smallest denomination of curreny
-The program interates up from 0 until it find 19 values in a row that are divisible and prints the last indivisible value it encountered.
+The program interates up from 0 until it finds 19 values in a row that are divisible and prints the last indivisible value it encountered.
 
 A more in-depth explaination of the algorithm can be found in riddlerCurrency.py
 
