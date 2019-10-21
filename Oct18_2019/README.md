@@ -35,5 +35,7 @@ A more in-depth explaination of the algorithm can be found in riddlerCurrency.py
 I could not help but noticing for both instances the highest indivisible value could be calculated using the formula:
 
 Highest Indivisible = ((second lowest denomination) / (lowest denomination - 1)) - lowest denomination
+
 9665 = ((538) / (19 - 1)) - 19
+
 1799 = ((101) / (19 - 1)) - 19
