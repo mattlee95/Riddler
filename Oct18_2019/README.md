@@ -39,3 +39,7 @@ Highest Indivisible = ((second lowest denomination) / (lowest denomination - 1))
 9665 = ((538) / (19 - 1)) - 19
 
 1799 = ((101) / (19 - 1)) - 19
+
+## Self-promoting Plug
+
+I am currently a software engineer in the San Francisco Bay Area who is open to chatting about exciting software engineering, data science and firmware development roles.  Feel free to take a look at my resume in the top level of this repository and shoot me an email/LinkedIn message if you have an interesting position that you would like to chat about.
