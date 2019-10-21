@@ -16,9 +16,12 @@ Extra Credit: Word is that Riddler Nation is considering minting a third currenc
 ## Solution
 
 For Currency Denominations of $19 and $538, the highest value that cannot be created is $9665
+
 Full list of values and divisibility can be found in solution_19_538.log
 
-FOr Currency Denominations of $19, $101 and $538, the highest value that cannot be created is $1799
+
+For Currency Denominations of $19, $101 and $538, the highest value that cannot be created is $1799
+
 Full list of values and divisibility can be found in solution_19_101_538.log
 
 ## Solution Methodology
