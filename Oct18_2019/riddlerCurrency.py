@@ -2,18 +2,14 @@ import math
 import sys
 
 
-#Global Variables for tracking circular buffer meant to exit program once 19
-#consecutive divisible values are detected as that signifies no more indivisible
-#values will occur
-circular_buffer = [False] * 19
-circular_buffer_index = 0
-
 #Global Variable tracking the final indivisible value
 last_indivisible = None
 
-#Global Variable of type list tracking all values found to be indivisible in
-#order to speed up program and not recalculate values already calculated
+#Global Variable of type list tracking all values found to be indivisible and 
+#all values found to be divisible in order to speed up program and not 
+#recalculate values already calculated
 undivis_list = list()
+divis_list = list()
 
 #Global Variable of type list tracking all values already calculated in order
 #to prevent duplicate calculations
@@ -22,6 +18,12 @@ values_seen = list()
 #Global Variable tracking all denominations
 CURR_DENOM = [538, 19]
 #CURR_DENOM = [538, 101, 19]
+
+#Global Variables for tracking circular buffer meant to exit program once 19
+#consecutive divisible values are detected as that signifies no more indivisible
+#values will occur
+circular_buffer = [False] * min(CURR_DENOM)
+circular_buffer_index = 0
 
 #Global Constants specifying range of values to calculate
 START_VAL = 0
@@ -38,7 +40,7 @@ def circular_buff(value):
     circular_buffer[circular_buffer_index] = value
 
     circular_buffer_index += 1
-    circular_buffer_index = circular_buffer_index % 19
+    circular_buffer_index = circular_buffer_index % min(CURR_DENOM)
 
     #If there are no occurences of False in the circular buffer the last 19
     #values were divisible meaning all following values will be divisible
@@ -51,8 +53,10 @@ def circular_buff(value):
 
 def evenly_divis(value):
     global CURR_DENOM
+
     global values_seen
     global undivis_list
+    global divis_list
 
     outcome_list = list()
 
@@ -67,7 +71,10 @@ def evenly_divis(value):
         if remain == 0:
             return True
 
-        
+        #If the remainder is a value known to be divisible return True
+        elif remain in divis_list:
+            return True
+
         #If the remainder is greater than 0 but smaller than our smallest
         #denomination, the value is indivisible.  Mark this permutation as False
         elif remain > 0 and remain < min(CURR_DENOM):
@@ -109,6 +116,7 @@ def main():
 
     global values_seen
     global undivis_list
+    global divis_list
     global last_indivisible
 
     #Calculate divisibily for each value in the specified range
@@ -122,6 +130,9 @@ def main():
         if outcome == False:
             undivis_list.append(i)
             last_indivisible = i
+
+        else:
+            divis_list.append(i)
     
         print "{0}, {1}".format(i, str(outcome))
         circular_buff(outcome)
