@@ -1,0 +1,331 @@
+Running optimization for dowry problem: with auto-rejection until index 1
+Final Stats: 3.3 Average Suiter Positon
+Final Stats: 3.7125 Average Suiter Positon
+[0, 0, 0, 0, 0, 0, 0, 0] Auto-Rejecting Until Index: 1
+Final Stats: 3.3 Average Suiter Positon
+Final Stats: 3.39166666667 Average Suiter Positon
+[0, 0, 0, 0, 0, 0, 0, 0] Auto-Rejecting Until Index: 1
+Final Stats: 3.3 Average Suiter Positon
+Final Stats: 3.3 Average Suiter Positon
+Final Stats: 3.3 Average Suiter Positon
+Final Stats: 3.39166666667 Average Suiter Positon
+[0, 0, 0, 1, 0, 0, 0, 0] Auto-Rejecting Until Index: 1
+Final Stats: 3.3 Average Suiter Positon
+Final Stats: 3.27642857143 Average Suiter Positon
+Final Stats: 3.27642857143 Average Suiter Positon
+Final Stats: 3.29214285714 Average Suiter Positon
+[0, 0, 0, 1, 1, 0, 0, 0] Auto-Rejecting Until Index: 1
+Final Stats: 3.27642857143 Average Suiter Positon
+Final Stats: 3.25089285714 Average Suiter Positon
+Final Stats: 3.25089285714 Average Suiter Positon
+Final Stats: 3.245 Average Suiter Positon
+Final Stats: 3.245 Average Suiter Positon
+Final Stats: 3.25875 Average Suiter Positon
+[0, 0, 0, 1, 1, 2, 0, 0] Auto-Rejecting Until Index: 1
+Final Stats: 3.245 Average Suiter Positon
+Final Stats: 3.22666666667 Average Suiter Positon
+Final Stats: 3.22666666667 Average Suiter Positon
+Final Stats: 3.21706349206 Average Suiter Positon
+Final Stats: 3.21706349206 Average Suiter Positon
+Final Stats: 3.21619047619 Average Suiter Positon
+Final Stats: 3.21619047619 Average Suiter Positon
+Final Stats: 3.22404761905 Average Suiter Positon
+[0, 0, 0, 1, 1, 2, 3, 0] Auto-Rejecting Until Index: 1
+Final Stats: 3.21619047619 Average Suiter Positon
+Final Stats: 3.20571428571 Average Suiter Positon
+Final Stats: 3.20571428571 Average Suiter Positon
+Final Stats: 3.19873015873 Average Suiter Positon
+Final Stats: 3.19873015873 Average Suiter Positon
+Final Stats: 3.19523809524 Average Suiter Positon
+Final Stats: 3.19523809524 Average Suiter Positon
+Final Stats: 3.19523809524 Average Suiter Positon
+Final Stats: 3.19523809524 Average Suiter Positon
+Final Stats: 3.19873015873 Average Suiter Positon
+[0, 0, 0, 1, 1, 2, 3, 4] Auto-Rejecting Until Index: 1
+Final Stats: 3.19523809524 Average Suiter Positon
+Final Stats: 3.19523809524 Average Suiter Positon
+Final Stats: 3.19523809524 Average Suiter Positon
+Final Stats: 3.19873015873 Average Suiter Positon
+[0, 0, 0, 1, 1, 2, 3, 3] Auto-Rejecting Until Index: 1
+Final Stats: 3.19523809524 Average Suiter Positon
+Final Stats: 3.19087301587 Average Suiter Positon
+Final Stats: 3.19087301587 Average Suiter Positon
+Final Stats: 3.19523809524 Average Suiter Positon
+[0, 0, 0, 1, 1, 2, 2, 3] Auto-Rejecting Until Index: 1
+Final Stats: 3.19087301587 Average Suiter Positon
+Final Stats: 3.18323412698 Average Suiter Positon
+Final Stats: 3.18323412698 Average Suiter Positon
+Final Stats: 3.19523809524 Average Suiter Positon
+[0, 0, 0, 1, 1, 1, 2, 3] Auto-Rejecting Until Index: 1
+Final Stats: 3.18323412698 Average Suiter Positon
+Final Stats: 3.18350694444 Average Suiter Positon
+[0, 0, 0, 1, 1, 1, 2, 3] Auto-Rejecting Until Index: 1
+Final Stats: 3.18323412698 Average Suiter Positon
+Final Stats: 3.14431216931 Average Suiter Positon
+[0, 0, 0, 0, 1, 1, 2, 3] Auto-Rejecting Until Index: 1
+[0, 0, 0, 0, 1, 1, 2, 3] Auto-Rejecting Until Index: 1
+[0, 0, 0, 0, 1, 1, 2, 3] Auto-Rejecting Until Index: 1
+Running optimization for dowry problem: with auto-rejection until index 2
+Final Stats: 2.93333333333 Average Suiter Positon
+Final Stats: 3.11666666667 Average Suiter Positon
+[0, 0, 0, 0, 0, 0, 0, 0] Auto-Rejecting Until Index: 2
+Final Stats: 2.93333333333 Average Suiter Positon
+Final Stats: 2.93333333333 Average Suiter Positon
+Final Stats: 2.93333333333 Average Suiter Positon
+Final Stats: 3.11666666667 Average Suiter Positon
+[0, 0, 0, 1, 0, 0, 0, 0] Auto-Rejecting Until Index: 2
+Final Stats: 2.93333333333 Average Suiter Positon
+Final Stats: 2.88619047619 Average Suiter Positon
+Final Stats: 2.88619047619 Average Suiter Positon
+Final Stats: 2.91761904762 Average Suiter Positon
+[0, 0, 0, 1, 1, 0, 0, 0] Auto-Rejecting Until Index: 2
+Final Stats: 2.88619047619 Average Suiter Positon
+Final Stats: 2.83511904762 Average Suiter Positon
+Final Stats: 2.83511904762 Average Suiter Positon
+Final Stats: 2.82333333333 Average Suiter Positon
+Final Stats: 2.82333333333 Average Suiter Positon
+Final Stats: 2.85083333333 Average Suiter Positon
+[0, 0, 0, 1, 1, 2, 0, 0] Auto-Rejecting Until Index: 2
+Final Stats: 2.82333333333 Average Suiter Positon
+Final Stats: 2.78666666667 Average Suiter Positon
+Final Stats: 2.78666666667 Average Suiter Positon
+Final Stats: 2.76746031746 Average Suiter Positon
+Final Stats: 2.76746031746 Average Suiter Positon
+Final Stats: 2.76571428571 Average Suiter Positon
+Final Stats: 2.76571428571 Average Suiter Positon
+Final Stats: 2.78142857143 Average Suiter Positon
+[0, 0, 0, 1, 1, 2, 3, 0] Auto-Rejecting Until Index: 2
+Final Stats: 2.76571428571 Average Suiter Positon
+Final Stats: 2.74476190476 Average Suiter Positon
+Final Stats: 2.74476190476 Average Suiter Positon
+Final Stats: 2.73079365079 Average Suiter Positon
+Final Stats: 2.73079365079 Average Suiter Positon
+Final Stats: 2.72380952381 Average Suiter Positon
+Final Stats: 2.72380952381 Average Suiter Positon
+Final Stats: 2.72380952381 Average Suiter Positon
+Final Stats: 2.72380952381 Average Suiter Positon
+Final Stats: 2.73079365079 Average Suiter Positon
+[0, 0, 0, 1, 1, 2, 3, 4] Auto-Rejecting Until Index: 2
+Final Stats: 2.72380952381 Average Suiter Positon
+Final Stats: 2.72380952381 Average Suiter Positon
+Final Stats: 2.72380952381 Average Suiter Positon
+Final Stats: 2.73079365079 Average Suiter Positon
+[0, 0, 0, 1, 1, 2, 3, 3] Auto-Rejecting Until Index: 2
+Final Stats: 2.72380952381 Average Suiter Positon
+Final Stats: 2.71507936508 Average Suiter Positon
+Final Stats: 2.71507936508 Average Suiter Positon
+Final Stats: 2.72380952381 Average Suiter Positon
+[0, 0, 0, 1, 1, 2, 2, 3] Auto-Rejecting Until Index: 2
+Final Stats: 2.71507936508 Average Suiter Positon
+Final Stats: 2.6998015873 Average Suiter Positon
+Final Stats: 2.6998015873 Average Suiter Positon
+Final Stats: 2.72380952381 Average Suiter Positon
+[0, 0, 0, 1, 1, 1, 2, 3] Auto-Rejecting Until Index: 2
+Final Stats: 2.6998015873 Average Suiter Positon
+Final Stats: 2.70034722222 Average Suiter Positon
+[0, 0, 0, 1, 1, 1, 2, 3] Auto-Rejecting Until Index: 2
+Final Stats: 2.6998015873 Average Suiter Positon
+Final Stats: 2.62195767196 Average Suiter Positon
+[0, 0, 0, 0, 1, 1, 2, 3] Auto-Rejecting Until Index: 2
+[0, 0, 0, 0, 1, 1, 2, 3] Auto-Rejecting Until Index: 2
+Running optimization for dowry problem: with auto-rejection until index 3
+Final Stats: 3.025 Average Suiter Positon
+Final Stats: 3.025 Average Suiter Positon
+Final Stats: 3.025 Average Suiter Positon
+Final Stats: 3.3 Average Suiter Positon
+[0, 0, 0, 1, 0, 0, 0, 0] Auto-Rejecting Until Index: 3
+Final Stats: 3.025 Average Suiter Positon
+Final Stats: 2.95428571429 Average Suiter Positon
+Final Stats: 2.95428571429 Average Suiter Positon
+Final Stats: 3.00142857143 Average Suiter Positon
+[0, 0, 0, 1, 1, 0, 0, 0] Auto-Rejecting Until Index: 3
+Final Stats: 2.95428571429 Average Suiter Positon
+Final Stats: 2.87767857143 Average Suiter Positon
+Final Stats: 2.87767857143 Average Suiter Positon
+Final Stats: 2.86 Average Suiter Positon
+Final Stats: 2.86 Average Suiter Positon
+Final Stats: 2.90125 Average Suiter Positon
+[0, 0, 0, 1, 1, 2, 0, 0] Auto-Rejecting Until Index: 3
+Final Stats: 2.86 Average Suiter Positon
+Final Stats: 2.805 Average Suiter Positon
+Final Stats: 2.805 Average Suiter Positon
+Final Stats: 2.77619047619 Average Suiter Positon
+Final Stats: 2.77619047619 Average Suiter Positon
+Final Stats: 2.77357142857 Average Suiter Positon
+Final Stats: 2.77357142857 Average Suiter Positon
+Final Stats: 2.79714285714 Average Suiter Positon
+[0, 0, 0, 1, 1, 2, 3, 0] Auto-Rejecting Until Index: 3
+Final Stats: 2.77357142857 Average Suiter Positon
+Final Stats: 2.74214285714 Average Suiter Positon
+Final Stats: 2.74214285714 Average Suiter Positon
+Final Stats: 2.72119047619 Average Suiter Positon
+Final Stats: 2.72119047619 Average Suiter Positon
+Final Stats: 2.71071428571 Average Suiter Positon
+Final Stats: 2.71071428571 Average Suiter Positon
+Final Stats: 2.71071428571 Average Suiter Positon
+Final Stats: 2.71071428571 Average Suiter Positon
+Final Stats: 2.72119047619 Average Suiter Positon
+[0, 0, 0, 1, 1, 2, 3, 4] Auto-Rejecting Until Index: 3
+Final Stats: 2.71071428571 Average Suiter Positon
+Final Stats: 2.71071428571 Average Suiter Positon
+Final Stats: 2.71071428571 Average Suiter Positon
+Final Stats: 2.72119047619 Average Suiter Positon
+[0, 0, 0, 1, 1, 2, 3, 3] Auto-Rejecting Until Index: 3
+Final Stats: 2.71071428571 Average Suiter Positon
+Final Stats: 2.69761904762 Average Suiter Positon
+Final Stats: 2.69761904762 Average Suiter Positon
+Final Stats: 2.71071428571 Average Suiter Positon
+[0, 0, 0, 1, 1, 2, 2, 3] Auto-Rejecting Until Index: 3
+Final Stats: 2.69761904762 Average Suiter Positon
+Final Stats: 2.67470238095 Average Suiter Positon
+Final Stats: 2.67470238095 Average Suiter Positon
+Final Stats: 2.71071428571 Average Suiter Positon
+[0, 0, 0, 1, 1, 1, 2, 3] Auto-Rejecting Until Index: 3
+Final Stats: 2.67470238095 Average Suiter Positon
+Final Stats: 2.67552083333 Average Suiter Positon
+[0, 0, 0, 1, 1, 1, 2, 3] Auto-Rejecting Until Index: 3
+Final Stats: 2.67470238095 Average Suiter Positon
+Final Stats: 2.55793650794 Average Suiter Positon
+[0, 0, 0, 0, 1, 1, 2, 3] Auto-Rejecting Until Index: 3
+Running optimization for dowry problem: with auto-rejection until index 4
+Final Stats: 3.3 Average Suiter Positon
+Final Stats: 3.17428571429 Average Suiter Positon
+Final Stats: 3.17428571429 Average Suiter Positon
+Final Stats: 3.2580952381 Average Suiter Positon
+[0, 0, 0, 0, 1, 0, 0, 0] Auto-Rejecting Until Index: 4
+Final Stats: 3.17428571429 Average Suiter Positon
+Final Stats: 3.0380952381 Average Suiter Positon
+Final Stats: 3.0380952381 Average Suiter Positon
+Final Stats: 3.00666666667 Average Suiter Positon
+Final Stats: 3.00666666667 Average Suiter Positon
+Final Stats: 3.08 Average Suiter Positon
+[0, 0, 0, 0, 1, 2, 0, 0] Auto-Rejecting Until Index: 4
+Final Stats: 3.00666666667 Average Suiter Positon
+Final Stats: 2.90888888889 Average Suiter Positon
+Final Stats: 2.90888888889 Average Suiter Positon
+Final Stats: 2.85767195767 Average Suiter Positon
+Final Stats: 2.85767195767 Average Suiter Positon
+Final Stats: 2.85301587302 Average Suiter Positon
+Final Stats: 2.85301587302 Average Suiter Positon
+Final Stats: 2.89492063492 Average Suiter Positon
+[0, 0, 0, 0, 1, 2, 3, 0] Auto-Rejecting Until Index: 4
+Final Stats: 2.85301587302 Average Suiter Positon
+Final Stats: 2.79714285714 Average Suiter Positon
+Final Stats: 2.79714285714 Average Suiter Positon
+Final Stats: 2.75989417989 Average Suiter Positon
+Final Stats: 2.75989417989 Average Suiter Positon
+Final Stats: 2.74126984127 Average Suiter Positon
+Final Stats: 2.74126984127 Average Suiter Positon
+Final Stats: 2.74126984127 Average Suiter Positon
+Final Stats: 2.74126984127 Average Suiter Positon
+Final Stats: 2.75989417989 Average Suiter Positon
+[0, 0, 0, 0, 1, 2, 3, 4] Auto-Rejecting Until Index: 4
+Final Stats: 2.74126984127 Average Suiter Positon
+Final Stats: 2.74126984127 Average Suiter Positon
+Final Stats: 2.74126984127 Average Suiter Positon
+Final Stats: 2.75989417989 Average Suiter Positon
+[0, 0, 0, 0, 1, 2, 3, 3] Auto-Rejecting Until Index: 4
+Final Stats: 2.74126984127 Average Suiter Positon
+Final Stats: 2.71798941799 Average Suiter Positon
+Final Stats: 2.71798941799 Average Suiter Positon
+Final Stats: 2.74126984127 Average Suiter Positon
+[0, 0, 0, 0, 1, 2, 2, 3] Auto-Rejecting Until Index: 4
+Final Stats: 2.71798941799 Average Suiter Positon
+Final Stats: 2.67724867725 Average Suiter Positon
+Final Stats: 2.67724867725 Average Suiter Positon
+Final Stats: 2.74126984127 Average Suiter Positon
+[0, 0, 0, 0, 1, 1, 2, 3] Auto-Rejecting Until Index: 4
+Final Stats: 2.67724867725 Average Suiter Positon
+Final Stats: 2.6787037037 Average Suiter Positon
+[0, 0, 0, 0, 1, 1, 2, 3] Auto-Rejecting Until Index: 4
+Running optimization for dowry problem: with auto-rejection until index 5
+Final Stats: 3.66666666667 Average Suiter Positon
+Final Stats: 3.45386904762 Average Suiter Positon
+Final Stats: 3.45386904762 Average Suiter Positon
+Final Stats: 3.40476190476 Average Suiter Positon
+Final Stats: 3.40476190476 Average Suiter Positon
+Final Stats: 3.5193452381 Average Suiter Positon
+[0, 0, 0, 0, 0, 2, 0, 0] Auto-Rejecting Until Index: 5
+Final Stats: 3.40476190476 Average Suiter Positon
+Final Stats: 3.25198412698 Average Suiter Positon
+Final Stats: 3.25198412698 Average Suiter Positon
+Final Stats: 3.17195767196 Average Suiter Positon
+Final Stats: 3.17195767196 Average Suiter Positon
+Final Stats: 3.16468253968 Average Suiter Positon
+Final Stats: 3.16468253968 Average Suiter Positon
+Final Stats: 3.23015873016 Average Suiter Positon
+[0, 0, 0, 0, 0, 2, 3, 0] Auto-Rejecting Until Index: 5
+Final Stats: 3.16468253968 Average Suiter Positon
+Final Stats: 3.07738095238 Average Suiter Positon
+Final Stats: 3.07738095238 Average Suiter Positon
+Final Stats: 3.01917989418 Average Suiter Positon
+Final Stats: 3.01917989418 Average Suiter Positon
+Final Stats: 2.99007936508 Average Suiter Positon
+Final Stats: 2.99007936508 Average Suiter Positon
+Final Stats: 2.99007936508 Average Suiter Positon
+Final Stats: 2.99007936508 Average Suiter Positon
+Final Stats: 3.01917989418 Average Suiter Positon
+[0, 0, 0, 0, 0, 2, 3, 4] Auto-Rejecting Until Index: 5
+Final Stats: 2.99007936508 Average Suiter Positon
+Final Stats: 2.99007936508 Average Suiter Positon
+Final Stats: 2.99007936508 Average Suiter Positon
+Final Stats: 3.01917989418 Average Suiter Positon
+[0, 0, 0, 0, 0, 2, 3, 3] Auto-Rejecting Until Index: 5
+Final Stats: 2.99007936508 Average Suiter Positon
+Final Stats: 2.9537037037 Average Suiter Positon
+Final Stats: 2.9537037037 Average Suiter Positon
+Final Stats: 2.99007936508 Average Suiter Positon
+[0, 0, 0, 0, 0, 2, 2, 3] Auto-Rejecting Until Index: 5
+Final Stats: 2.9537037037 Average Suiter Positon
+Final Stats: 2.8900462963 Average Suiter Positon
+Final Stats: 2.8900462963 Average Suiter Positon
+Final Stats: 2.99007936508 Average Suiter Positon
+[0, 0, 0, 0, 0, 1, 2, 3] Auto-Rejecting Until Index: 5
+Running optimization for dowry problem: with auto-rejection until index 6
+Final Stats: 4.08571428571 Average Suiter Positon
+Final Stats: 3.81071428571 Average Suiter Positon
+Final Stats: 3.81071428571 Average Suiter Positon
+Final Stats: 3.66666666667 Average Suiter Positon
+Final Stats: 3.66666666667 Average Suiter Positon
+Final Stats: 3.65357142857 Average Suiter Positon
+Final Stats: 3.65357142857 Average Suiter Positon
+Final Stats: 3.77142857143 Average Suiter Positon
+[0, 0, 0, 0, 0, 0, 3, 0] Auto-Rejecting Until Index: 6
+Final Stats: 3.65357142857 Average Suiter Positon
+Final Stats: 3.49642857143 Average Suiter Positon
+Final Stats: 3.49642857143 Average Suiter Positon
+Final Stats: 3.39166666667 Average Suiter Positon
+Final Stats: 3.39166666667 Average Suiter Positon
+Final Stats: 3.33928571429 Average Suiter Positon
+Final Stats: 3.33928571429 Average Suiter Positon
+Final Stats: 3.33928571429 Average Suiter Positon
+Final Stats: 3.33928571429 Average Suiter Positon
+Final Stats: 3.39166666667 Average Suiter Positon
+[0, 0, 0, 0, 0, 0, 3, 4] Auto-Rejecting Until Index: 6
+Final Stats: 3.33928571429 Average Suiter Positon
+Final Stats: 3.33928571429 Average Suiter Positon
+Final Stats: 3.33928571429 Average Suiter Positon
+Final Stats: 3.39166666667 Average Suiter Positon
+[0, 0, 0, 0, 0, 0, 3, 3] Auto-Rejecting Until Index: 6
+Final Stats: 3.33928571429 Average Suiter Positon
+Final Stats: 3.27380952381 Average Suiter Positon
+Final Stats: 3.27380952381 Average Suiter Positon
+Final Stats: 3.33928571429 Average Suiter Positon
+[0, 0, 0, 0, 0, 0, 2, 3] Auto-Rejecting Until Index: 6
+Running optimization for dowry problem: with auto-rejection until index 7
+Final Stats: 4.5375 Average Suiter Positon
+Final Stats: 4.21666666667 Average Suiter Positon
+Final Stats: 4.21666666667 Average Suiter Positon
+Final Stats: 4.00277777778 Average Suiter Positon
+Final Stats: 4.00277777778 Average Suiter Positon
+Final Stats: 3.89583333333 Average Suiter Positon
+Final Stats: 3.89583333333 Average Suiter Positon
+Final Stats: 3.89583333333 Average Suiter Positon
+Final Stats: 3.89583333333 Average Suiter Positon
+Final Stats: 4.00277777778 Average Suiter Positon
+[0, 0, 0, 0, 0, 0, 0, 4] Auto-Rejecting Until Index: 7
+Final Stats: 3.89583333333 Average Suiter Positon
+Final Stats: 3.89583333333 Average Suiter Positon
+Final Stats: 3.89583333333 Average Suiter Positon
+Final Stats: 4.00277777778 Average Suiter Positon
+[0, 0, 0, 0, 0, 0, 0, 3] Auto-Rejecting Until Index: 7
