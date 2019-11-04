@@ -6,7 +6,12 @@ from itertools import permutations
 
 # THRESHOLD is a list of int type variables meant to represent the mininum standing
 # of the suiter at that index compared to those rejected in order to be selected
-THRESHOLD = [0, 0, 0, 0, 0, 0, 0, 0]
+#
+# For example THRESHOLD[i] = n
+# The program will compare the candidate at index i to the sorted rejected candidate
+# at index x.  If candidate i's rank is better than sorted rejected candidate n's
+# candidate i will be selected
+THRESHOLD = [0] * 9
 
 # REJECT_UNTIL represents the amount of suiters who should be automatically rejected
 # during the process.
@@ -20,7 +25,7 @@ def reset_threshold():
     global THRESHOLD
 
     # Reset THRESHOLD to begin optimization from known point
-    THRESHOLD = [0, 0, 0, 0, 0, 0, 0, 0]
+    THRESHOLD = [0] * 9
 
 
 def choose_suiter(randomized_tup):
@@ -36,12 +41,13 @@ def choose_suiter(randomized_tup):
 
         # Create holder list of all previous elements before one being evaluated in order
         # to construct sorted list of all previously rejected candidates
-        holder = randomized_list[:i]
-        holder.sort()
+        rejects = randomized_list[:i]
+        rejects.sort()
 
         # If the evaulated index scores higher than the threshold index in the sorted list
         # of previously rejected candidates selected the evauluated candidate
-        if randomized_list[i] < holder[THRESHOLD[i-1]]:
+        #print "i: {0}, THRESHOLD[i]: {1}, Holder: {2}".format(i, THRESHOLD[i], holder)
+        if randomized_list[i] < rejects[THRESHOLD[i]]:
             return randomized_list[i]
 
     # If we get to this point all 9 other candidates have been rejected.  We must select
@@ -88,7 +94,7 @@ def optimize(reject_index):
         # Flag tracking if index has been optimized in the incremental run
         flag_index_optimized = False
 
-        while (flag_index_optimized != True):
+        while (flag_index_optimized != True and THRESHOLD[i]+1 < i):
 
             # Increment index's threshold value by 1 and comapre to previous outcome.
             preopt_val = main()
