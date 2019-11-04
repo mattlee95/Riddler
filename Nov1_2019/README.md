@@ -18,13 +18,21 @@ If the vizier strategizes as outlined below she can expect to choose the candida
 Full list of average ranks during the optimization process can be found at solution.txt
 
 The optimal strategy in this scenario would be:
+
     1. Reject the first 3 candidates
+
     2. If the 4th candidate ranks 1st among those rejected, select the 4th candidate, else reject
+
     3. If the 5th candidate ranks 1st among those rejected, select the 5th candidate, else reject
+
     4. If the 6th candidate ranks either 1st or 2nd among those rejected, select the 6th candidate, else reject
+
     5. If the 7th candidate ranks either 1st or 2nd among those rejected, select the 7th candidate, else reject
+
     6. If the 8th candidate ranks either 1st, 2nd or 3rd among those rejected, select the 8th candidate, else reject
+
     7. If the 9th candidate ranks either 1st, 2nd, 3rd or 4th among those rejected, select the 9th candidate, else reject
+
     8. If you have rejected all other candidate select the 10th (final) candidate
 
 ## Solution Methodology
