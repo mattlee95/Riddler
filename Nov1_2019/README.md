@@ -42,17 +42,17 @@ I solved this problem by first creating a function that took rules for selecting
 Utilizing this function I was able to write a higher level function that changed values of both the REJECT_UNTIL and THRESHOLD parameters to optimize the rules to select the lowest average rank.
 
 In order to demonstrate the logic, take the following example:
-- Candidates ordered `[1, 9, 3, 7, 4, 6, 2, 5, 8]`
+- Candidates ordered `[1, 9, 3, 7, 4, 6, 2, 5, 8, 10]`
 - `REJECT_UNTIL = 3`, representing the first 3 candidates will always be rejected
 - `THRESHOLD = [0, 0, 0, 0, 0, 1, 1, 2, 3]`, specifying which rejected candidate each new candidate will be compared to.
 
 |  |Reject (Sorted) |Order of Next Appearance |Threshold  |Decision|
 |--|--|--|--|--|
-|Step 0  |[]  |[1, 9, 3, 7, 4, 6, 2, 5, 8]  |[__0__, __0__, __0__, 0, 0, 1, 1, 2, 3]|  Reject 1, 9, 3
-|Step 1  |[__1__, 3, 9]  |[__7__, 4, 6, 2, 5, 8]  |[0, 0, 0, __0__, 0, 1, 1, 2, 3]|  1 < 7, Reject 7
-|Step 2  |[__1__, 3, 7, 9]  |[__4__, 6, 2, 5, 8]  |[0, 0, 0, 0, __0__, 1, 1, 2, 3]|  1 < 4, Reject 4
-|Step 3	 |[1, __3__, 4 , 7, 9]  |[__6__, 2, 5, 8]  |[0, 0, 0, 0, 0, __1__, 1, 2, 3]|  3 < 6, Reject 6
-|Step 4  |[1, __3__, 4, 6, 7, 9]  |[__2__, 5, 8]  |[0, 0, 0, 0, 0, 1, __1__, 2, 3]|  3 > 2, Accept 2
+|Step 0  |[]  |[1, 9, 3, 7, 4, 6, 2, 5, 8, 10]  |[__0__, __0__, __0__, 0, 0, 1, 1, 2, 3]|  Reject 1, 9, 3
+|Step 1  |[__1__, 3, 9]  |[__7__, 4, 6, 2, 5, 8, 10]  |[0, 0, 0, __0__, 0, 1, 1, 2, 3]|  1 < 7, Reject 7
+|Step 2  |[__1__, 3, 7, 9]  |[__4__, 6, 2, 5, 8, 10]  |[0, 0, 0, 0, __0__, 1, 1, 2, 3]|  1 < 4, Reject 4
+|Step 3	 |[1, __3__, 4 , 7, 9]  |[__6__, 2, 5, 8, 10]  |[0, 0, 0, 0, 0, __1__, 1, 2, 3]|  3 < 6, Reject 6
+|Step 4  |[1, __3__, 4, 6, 7, 9]  |[__2__, 5, 8, 10]  |[0, 0, 0, 0, 0, 1, __1__, 2, 3]|  3 > 2, Accept 2
 
 The Function will return candidate of rank `2` in this example
 
