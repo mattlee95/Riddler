@@ -17,7 +17,7 @@ What will be your average final score in this game?
 
 ## Solution
 
-Some of the permutations of this problem continue infinitely, so the average final score will continue to reach the true value as you calculate the value more percisely.  The closest I was able to come was an average final score of `0.473684208945`
+Some of the permutations of this problem continue infinitely, so the average final score will continue to reach the true value as you calculate the value more percisely.  The closest I was able to come was an average final score of `0.473684210364`
 
 
 ## Solution Methodology
