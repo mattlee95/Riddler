@@ -37,6 +37,7 @@ Since the permutations of this problem can continue infintely, I needed a way of
 |.000001  |0.47368404281   |
 |.0000001  |0.473684192884  |
 |.00000001  |0.473684208945  |
+|.000000001  |0.473684210364  |
 
 
 Please see the source code and comments in 10sided.py for a more in depth description of the functions and algorithms used to calculate this scenarios average value.
