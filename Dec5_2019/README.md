@@ -26,21 +26,7 @@ My methodology for this solution was to track all possible scenarios, the value 
 
 Since the permutations of this problem can continue infintely, I needed a way of capping the amount of permutations I would let happen.  To do this I implemented a threshold for the probability a scenario must have for me to further calculate its permuations.  As I lowered the threshold, the longer the calculations took and the closer the program came to the true average value.
 
-
-|Threshold Probability | Average Value |
-|--|--|
-|.1  |0.45  |
-|.01  |0.472137926986  |
-|.001  |0.473500712245  |
-|.0001	|0.473666164011  |
-|.00001  |0.473682468489  |
-|.000001  |0.47368404281   |
-|.0000001  |0.473684192884  |
-|.00000001  |0.473684208945  |
-|.000000001  |0.473684210364  |
-
-
-Please see the source code and comments in 10sided.py for a more in depth description of the functions and algorithms used to calculate this scenarios average value.
+![Graph: Relationship Between Threshold and Expected Moves](https://github.com/mattlee95/Riddler/blob/master/Dec5_2019/100SongsFull.png)
 
 ## Self-promoting Plug
 
