@@ -25,7 +25,7 @@ For this strategy `Expected Moves = 12.6428571429`
 
 For this solution I was operating under the intutition that the best strategy would be cases which defined when to press "Random" vs "Next".  Since each random selection was independent of one another this case would remain constant throughout the scenario.
 
-I began by creating a simple Python script <em>songSkipSim.py</em> in order to simulate the problem to get a good idea of the range I was going to be looking at.
+I began by creating a simple Python script `songSkipSim.py` in order to simulate the problem to get a good idea of the range I was going to be looking at.
 
 The script gave me a pretty good idea I was looking at the optimal strategy being use "Random" when further than the threshold "Next" clicks away otherwise using "Next" where the threshold was in the range of 10 - 15.
   
@@ -33,7 +33,7 @@ I recognized for the case of X = 0 (Use "Random" until desired song is reached) 
 
 ![Image: Summation Formula](https://github.com/mattlee95/Riddler/blob/master/Dec5_2019/summationFormula.png)
 
-I graphed the expected number of moves to get to a song of choice for different threshold values to illistrate a threshold of 13 being the optimized solution
+I created the program `songSkipCalc.py` in order to solve the summation I above.  I graphed the results (expected number of moves to get to a song of choice for different threshold values) to illistrate a threshold of 13 being the optimized solution
 
 ![Graph: Relationship Between Threshold and Expected Moves](https://github.com/mattlee95/Riddler/blob/master/Dec5_2019/100SongsFull.png)
 
