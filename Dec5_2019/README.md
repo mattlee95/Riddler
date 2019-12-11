@@ -1,30 +1,35 @@
-# Riddler Classic : Novmeber 15th, 2019
+# Riddler Classic : December 5th, 2019
 
 
 
 
 ## Problem Statement
 
-From Ricky Jacobson comes a puzzle of seeing how low you can roll:
+From Austin Chen comes a riddle of efficiently finding a song:
 
-You are given a fair, unweighted 10-sided die with sides labeled 0 to 9 and a sheet of paper to record your score. (If the very notion of a fair 10-sided die bothers you, and you need to know what sort of three-dimensional solid it is, then forget it — you have a random number generator that gives you an integer value from 0 to 9 with equal probability. Your loss — the die was a collector’s item.)
+You have a playlist with exactly 100 tracks (i.e., songs), numbered 1 to 100. To go to another track, there are two buttons you can press: (1) “Next,” which will take you to the next track in the list or back to song 1 if you are currently on track 100, and (2) “Random,” which will take you to a track chosen uniformly from among the 100 tracks. Pressing “Random” can restart the track you’re already listening to — this will happen 1 percent of the time you press the “Random” button.
 
-To start the game, you roll the die. Your current “score” is the number shown, divided by 10. For example, if you were to roll a 7, then your score would be 0.7. Then, you keep rolling the die over and over again. Each time you roll, if the digit shown by the die is less than or equal to the last digit of your score, then that roll becomes the new last digit of your score. Otherwise you just go ahead and roll again. The game ends when you roll a zero.
+For example, if you started on track 73, and you pressed the buttons in the sequence “Random, Next, Random, Random, Next, Next, Random, Next,” you might get the following sequence of track numbers: 73, 30, 31, 67, 12, 13, 14, 89, 90. You always know the number of the track you’re currently listening to.
 
-For example, suppose you roll the following: 6, 2, 5, 1, 8, 1, 0. After your first roll, your score would be 0.6, After the second, it’s 0.62. You ignore the third roll, since 5 is greater than the current last digit, 2. After the fourth roll, your score is 0.621. You ignore the fifth roll, since 8 is greater than the current last digit, 1. After the sixth roll, your score is 0.6211. And after the seventh roll, the game is over — 0.6211 is your final score.
+Your goal is to get to your favorite song (on track 42, of course) with as few button presses as possible. What should your general strategy be? Assuming you start on a random track, what is the average number of button presses you would need to make to reach your favorite song?
 
-What will be your average final score in this game?
 
 ## Solution
 
-Some of the permutations of this problem continue infinitely, so the average final score will continue to reach the true value as you calculate the value more percisely.  The closest I was able to come was an average final score of `0.473684210364`
+The strategy that will result in the fewest button presses as possible is to press the "Random" button until you are within 13 "Next" button presses of the desired song. 
+
+For this strategy `Expected Moves = 12.6428571429`
 
 
 ## Solution Methodology
 
-My methodology for this solution was to track all possible scenarios, the value associated with them and the probability this scenario would occur.
+For this solution I was operating under the intutition that the best strategy would be cases which defined when to press "Random" vs "Next".  Since each random selection was independent of one another this case would remain constant throughout the scenario.
 
-Since the permutations of this problem can continue infintely, I needed a way of capping the amount of permutations I would let happen.  To do this I implemented a threshold for the probability a scenario must have for me to further calculate its permuations.  As I lowered the threshold, the longer the calculations took and the closer the program came to the true average value.
+I began by creating a simple Python script <em>songSkipSim.py<em> in order to simulate the problem to get a good idea of the range I was going to be looking at.
+
+The script gave me a pretty good idea I was looking at the optimal strategy being use "Random" when further than X "Next" clicks away otherwise using "Next" where X was in the range of 10 - 15.
+  
+I recognized for the case of X = 0 (Use "Random" until desired song is reached) we would be dealing with a standard geometric distribution with a probability of 1 / 100.  Using the summation representation of a geometric distribution, I was able to write an formula for the expected number of moves for any threshold (X) value.
 
 ![Graph: Relationship Between Threshold and Expected Moves](https://github.com/mattlee95/Riddler/blob/master/Dec5_2019/100SongsFull.png)
 
