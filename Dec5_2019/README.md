@@ -31,7 +31,7 @@ The script gave me a pretty good idea I was looking at the optimal strategy bein
   
 I recognized for the case of X = 0 (Use "Random" until desired song is reached) we would be dealing with a standard geometric distribution with a probability of 1 / 100.  Using the summation representation of a geometric distribution, I was able to write an formula for the expected number of moves for any threshold value.
 
-$$\sum\limits_{x = 0}^{infinity}((threshold+1)/n) * ((n - (threshold + 1) / n)^x * (threshold/2 + x)$$
+![Image: Summation Formula](https://github.com/mattlee95/Riddler/blob/master/Dec5_2019/summationFormula.png)
 
 ![Graph: Relationship Between Threshold and Expected Moves](https://github.com/mattlee95/Riddler/blob/master/Dec5_2019/100SongsFull.png)
 
