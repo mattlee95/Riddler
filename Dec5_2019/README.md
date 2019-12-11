@@ -25,11 +25,13 @@ For this strategy `Expected Moves = 12.6428571429`
 
 For this solution I was operating under the intutition that the best strategy would be cases which defined when to press "Random" vs "Next".  Since each random selection was independent of one another this case would remain constant throughout the scenario.
 
-I began by creating a simple Python script <em>songSkipSim.py<em> in order to simulate the problem to get a good idea of the range I was going to be looking at.
+I began by creating a simple Python script <em>songSkipSim.py</em> in order to simulate the problem to get a good idea of the range I was going to be looking at.
 
-The script gave me a pretty good idea I was looking at the optimal strategy being use "Random" when further than X "Next" clicks away otherwise using "Next" where X was in the range of 10 - 15.
+The script gave me a pretty good idea I was looking at the optimal strategy being use "Random" when further than the threshold "Next" clicks away otherwise using "Next" where the threshold was in the range of 10 - 15.
   
-I recognized for the case of X = 0 (Use "Random" until desired song is reached) we would be dealing with a standard geometric distribution with a probability of 1 / 100.  Using the summation representation of a geometric distribution, I was able to write an formula for the expected number of moves for any threshold (X) value.
+I recognized for the case of X = 0 (Use "Random" until desired song is reached) we would be dealing with a standard geometric distribution with a probability of 1 / 100.  Using the summation representation of a geometric distribution, I was able to write an formula for the expected number of moves for any threshold value.
+
+$$\sum\limits_{x = 0}^{infinity}((threshold+1)/n) * ((n - (threshold + 1) / n)^x * (threshold/2 + x)$$
 
 ![Graph: Relationship Between Threshold and Expected Moves](https://github.com/mattlee95/Riddler/blob/master/Dec5_2019/100SongsFull.png)
 
