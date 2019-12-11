@@ -29,9 +29,11 @@ I began by creating a simple Python script <em>songSkipSim.py</em> in order to s
 
 The script gave me a pretty good idea I was looking at the optimal strategy being use "Random" when further than the threshold "Next" clicks away otherwise using "Next" where the threshold was in the range of 10 - 15.
   
-I recognized for the case of X = 0 (Use "Random" until desired song is reached) we would be dealing with a standard geometric distribution with a probability of 1 / 100.  Using the summation representation of a geometric distribution, I was able to write an formula for the expected number of moves for any threshold value.
+I recognized for the case of X = 0 (Use "Random" until desired song is reached) we would be dealing with a standard geometric distribution with a probability of 1 / 100.  Using the summation representation of a geometric distribution, I was able to write an formula for the expected number of moves for any threshold value. For `x` being the number of "Random" choices before getting a song within the `threshold` and `n` being the number of songs the following is true.
 
 ![Image: Summation Formula](https://github.com/mattlee95/Riddler/blob/master/Dec5_2019/summationFormula.png)
+
+I graphed the expected number of moves to get to a song of choice for different threshold values to illistrate a threshold of 13 being the optimized solution
 
 ![Graph: Relationship Between Threshold and Expected Moves](https://github.com/mattlee95/Riddler/blob/master/Dec5_2019/100SongsFull.png)
 
