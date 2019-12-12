@@ -16,7 +16,7 @@ Your goal is to get to your favorite song (on track 42, of course) with as few b
 
 ## Solution
 
-The strategy that will result in the fewest button presses as possible is to press the "Random" button until you are within 13 "Next" button presses of the desired song. 
+The strategy that will result in the fewest button presses as possible is to press the "Random" button until you are within 13 "Next" button presses of the desired song. Then press "Next" until you reach your desired song.
 
 For this strategy `Expected Moves = 12.6428571429`
 
@@ -33,7 +33,7 @@ I recognized for the case of X = 0 (Use "Random" until desired song is reached) 
 
 ![Image: Summation Formula](https://github.com/mattlee95/Riddler/blob/master/Dec5_2019/summationFormula.png)
 
-I created the program [songSkipCalc.py](https://github.com/mattlee95/Riddler/blob/master/Dec5_2019/songSkipCalc.py) in order to solve the summation I above.  I graphed the results (expected number of moves to get to a song of choice for different threshold values) to illistrate a threshold of 13 being the optimized solution
+I created the program [songSkipCalc.py](https://github.com/mattlee95/Riddler/blob/master/Dec5_2019/songSkipCalc.py) in order to solve the summation I above.  I graphed the results (expected number of moves to get to a song of choice for different threshold values) to illistrate a threshold of 13 being the optimized solution.
 
 ![Graph: Relationship Between Threshold and Expected Moves](https://github.com/mattlee95/Riddler/blob/master/Dec5_2019/100SongsFull.png)
 
