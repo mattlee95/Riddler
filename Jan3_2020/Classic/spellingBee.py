@@ -1,4 +1,4 @@
-from itertools import combinations 
+from itertools import combinations
 
 letters = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k' ,'l', 'm', 'n', 'o', 'p', 'q', 'r', 't', 'u', 'v', 'w', 'x', 'y', 'z']
 
@@ -18,7 +18,7 @@ def read_file():
     contents_list = contents.split('\n')
 
     for word in contents_list:
-        if len(word) > 3:
+        if len(word) > 3 and 's' not in word:
             WORDS.append(word)
 
 
@@ -26,7 +26,7 @@ def point_val_word(word):
     global MUST_USE
     global LETTER_BANK
     global MEGAPLEX
-    
+
     # Does word have MUST_USE
     if MUST_USE not in word:
         return 0
@@ -45,7 +45,6 @@ def point_val_word(word):
     points = 0
 
     if Mega:
-        #print word + " <- megaplex"
         MEGAPLEX = True
         points = 7
 
@@ -60,29 +59,13 @@ def point_val_word(word):
 def solve_all_words():
     global WORDS
 
-    #valid_words = []
     points = 0
 
     for word in WORDS:
-        '''word_pnt = 0
-        word_pnt += point_val_word(word)
-        
-        points += word_pnt
-
-        if word_pnt > 0:
-            valid_words.append(word)'''
         points += point_val_word(word)
 
-
-    #print points
-    #print valid_words
     return points
 
-
-'''
-read_file()
-solve_all_words()
-'''
 
 def init(bank, mu):
     global LETTER_BANK
@@ -107,20 +90,24 @@ def main():
     comb = combinations(letters, 7)
 
     for c in list(comb):
-        
+
         for i in range(7):
             init(c, c[i])
             points = solve_all_words()
-         
+
             print c
             print c[i]
+            print max_points
+
+            if not MEGAPLEX:
+                break
 
             if MEGAPLEX and points > max_points:
                 max_points = points
                 max_letters = c
                 max_must = c[i]
 
-            print max_points
+            #print max_points
 
     print max_points
     print max_letters

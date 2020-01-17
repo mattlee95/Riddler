@@ -3,9 +3,7 @@ import os
 
 '''
 
-
-
-
+Script for simulating the problem using the Python random library
 
 '''
 
