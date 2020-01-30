@@ -32,7 +32,9 @@ The seven letter honeycomb that resutls in the highest possible game score with 
 
 
 Letters = ('a', 'e', 'g', 'i', 'n', 'r', 't')
+
 Middle Letter = t
+
 Score = 3898
 
 
