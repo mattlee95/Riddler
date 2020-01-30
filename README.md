@@ -29,4 +29,4 @@ I've got a facination with all things algorithmic and quantitative.
 
 There is a copy of my resume below.  Would love to have a chat if you have any interesting roles in the Software/Quantitative space
 
-![Image: Current Resume](https://github.com/mattlee95/Riddler/blob/master/Matthew%20Lee%20Resume.pdf)
+![Image: Current Resume]
