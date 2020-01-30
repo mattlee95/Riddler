@@ -10,7 +10,7 @@ def recursive(candy_list):
     global candy_perms
 
     #Alotment full
-    if sum(candy_list) => 100:
+    if sum(candy_list) >= 100:
         return
 
     #Pick an Almond
