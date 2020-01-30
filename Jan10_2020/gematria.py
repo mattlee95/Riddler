@@ -78,11 +78,13 @@ def main():
 
     print "value : char sum : word"
 
-    for i in range(10):
+    MAX = 1000 * 100
+
+    for i in range(MAX):
 
         s = construct_word(i)
         val = calc_gem_val(s)
-        if True: #val:
+        if val > i:
             print "{0} : {1} : {2}".format(i, val, s)
 
 main()
