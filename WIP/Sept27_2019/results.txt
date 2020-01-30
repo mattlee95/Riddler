@@ -1,0 +1,6 @@
+MM vs. DD record: 585242 - 414758
+TT vs. MM record: 516241 - 483759
+DD vs. TT record: 372038 - 627962
+MM league winning percentage: 0.5345005
+DD league winning percentage: 0.393398
+TT league winning percentage: 0.5721015

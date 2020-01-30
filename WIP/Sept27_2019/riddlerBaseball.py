@@ -13,7 +13,7 @@ TT : 10% HR 90% SO
 
 
 def simulate_inning(team):
-    outs = 0 
+    outs = 0
     runs = 0
     runners = 0
 
@@ -38,14 +38,14 @@ def simulate_inning(team):
 
             else:
                 outs += 1
- 
+
     elif team == "TT":
         while outs < 3:
             if random.randint(1,10) > 9:
                 runs += 1
             else:
                 outs += 1
-        
+
     else:
         exit(1)
 
@@ -81,13 +81,13 @@ def simulate_records():
     DD = "DD"
     TT = "TT"
 
-    NUM_SIMS = 182 * 10 * 1000 * 1000
+    NUM_SIMS = 1000 * 1000
 
     # record of MM vs. DD
     mm_wins = 0
     for i in range(NUM_SIMS):
         mm_wins += simulate_game(MM, DD)
-        print i
+        #print i
         #sys.stdout.write("\033[F")
     print "MM vs. DD record: {0} - {1}".format(mm_wins, NUM_SIMS-mm_wins)
 
@@ -95,7 +95,7 @@ def simulate_records():
     tt_wins = 0
     for i in range(NUM_SIMS):
         tt_wins += simulate_game(TT, MM)
-        print i
+        #print i
         #sys.stdout.write("\033[F")
     print "TT vs. MM record: {0} - {1}".format(tt_wins, NUM_SIMS-tt_wins)
 
@@ -103,7 +103,7 @@ def simulate_records():
     dd_wins = 0
     for i in range(NUM_SIMS):
         dd_wins += simulate_game(DD, TT)
-        print i
+        #print i
         #sys.stdout.write("\033[F")
     print "DD vs. TT record: {0} - {1}".format(dd_wins, NUM_SIMS-dd_wins)
 
