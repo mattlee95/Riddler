@@ -1,28 +1,32 @@
-# Riddler Classic : Sept 13th, 2019 
+# Solutions To [538's Weekly Riddler](https://fivethirtyeight.com/tag/the-riddler/) Column
 
 
+## Table of Contents
 
+January 10th 2020: [Gematria](https://github.com/mattlee95/Riddler/tree/master/Jan10_2020)
 
-## Problem Statement
+January 3rd 2020: [Spelling Bee](https://github.com/mattlee95/Riddler/tree/master/Jan3_2020)
 
-"Recent Riddlers have tackled  [Scrabble Superstrings](https://fivethirtyeight.com/features/whats-your-best-scrabble-string/)  and  [road trips through 48 states](https://fivethirtyeight.com/features/can-you-escape-this-enchanted-maze/). For this week’s Riddler Classic, Max Maguire combines these two puzzles into one:
+December 13th 2019: [Rectangular Prism](https://github.com/mattlee95/Riddler/tree/master/Dec13_2019)
 
-The challenge is to find the longest string of letters in which (1) every pair of consecutive letters is a two-letter state or territory abbreviation, and (2) no state abbreviation occurs more than once. For example, Guam, Utah and Texas can be combined into the valid four-letter string GUTX. Another valid string is ALAK (Alabama, Louisiana and Alaska), while ALAL (Alabama, Louisiana and Alabama) is invalid because it includes the same state, Alabama, twice.
+December 5th 2019: [Random Song Skipping](https://github.com/mattlee95/Riddler/tree/master/Dec5_2019)
 
-For reference, the full list of abbreviations is available  [here](https://pe.usps.com/text/pub28/28apb.htm), courtesy of the United States Postal Service."
+November 15th 2019: [10-sided Dice](https://github.com/mattlee95/Riddler/tree/master/Nov15_2019)
 
-## Solution
+November 1st 2019: [Sultan](https://github.com/mattlee95/Riddler/tree/master/Nov1_2019)
 
-There are 9984 unique strings of length 31 (30 states used) all of which begin with the Federated States of Micronesia (FM) and end in an abbreviation ending in "E"
+October 18th 2019: [Riddler Currency](https://github.com/mattlee95/Riddler/tree/master/Oct18_2019)
 
-A list of these solutions can be found in solution.txt
+October 4th 2019: [Triple Birthday](https://github.com/mattlee95/Riddler/tree/master/Oct4_2019)
 
-## Solution Methodology
+September 13th 2019: [State SuperStrings](https://github.com/mattlee95/Riddler/tree/master/Sept13_2019)
 
-I think of this solution as a breadth first computation down a tree containing nodes of:
-[("current string", [list of unused states]), ...]
+## About Me
 
-For each legal string that can be created for each node we add that to a list of nodes in the next level: 
-[("current string + legal state", [list of unused states - legal state just added]), ...]
+I am currenly a Software Engineer at Apple, living in the South Bay Area.
 
-We continue until we reach a level which cannot be populated with legal additions to the strings.
+I've got a facination with all things algorithmic and quantitative.
+
+There is a copy of my resume below.  Would love to have a chat if you have any interesting roles in the Software/Quantitative space
+
+![Image: Current Resume](https://github.com/mattlee95/Riddler/blob/master/Matthew%20Lee%20Resume.pdf)
