@@ -31,14 +31,14 @@ For this solution the difficult part was determining a methmod to find the volum
 Narrowing the problem down further I found that the majority of the problem was solving for the dimensions of two of the triangles of the triangular based pyramid slice.  The two triangles were the actual manga tile traingle and what I called the base triangle (think of this as the triangular shadow cast when the magna tile is leaning into the shape.
 
 
-# Magna Tile Triangle
+### Magna Tile Triangle
 
 For the magna tile triangle I gave some placeholder for the dimensions so I would have an acutal value for each calculated volume.  I chose to make the base of the triangle 10 units long.  This in turn, since it is a 75, 75, 30 isoceles triangle make the height of the tile 18.66 units long.
 
 ![Image: Magna Tile Triangle Diagram](https://github.com/mattlee95/Riddler/blob/master/Jan31_2020/diagrams/diagramMagna.gif)
 
 
-# Base Triangle
+### Base Triangle
 
 For the base triangle, I was able to take the base value of the manga tile triangle and use it for the base as well.  I was able to determine the angles of the triangle based on the regular polygon formed when making a pyramid of n triangular tiles.
 
@@ -57,20 +57,30 @@ Then using the base height and the height of the tile we can calculate the heigh
 Finally I calculated the volume of a slice and therefore the entire bowl using the formula
 
 `base area = magna base * base height / 2`
+
 `slice volume = base area * pyramid height / 3`
+
 `bowl volume = slice volume * number of tiles`
 
 The results of using a number of traingles from 3 - 11 is as follows:
 
-`Bowl of 3 slices has volume of 512.243103686
-Bowl of 4 slices has volume of 814.050135042
-Bowl of 5 slices has volume of 1177.34038382
-Bowl of 6 slices has volume of 1575.45209404
-Bowl of 7 slices has volume of 1965.23232794
-Bowl of 8 slices has volume of 2317.25951908
-Bowl of 9 slices has volume of 2543.03984026
-Bowl of 10 slices has volume of 2506.66968821
-Bowl of 11 slices has volume of 2340.83769464`
+`Bowl of 3 slices has volume of 512.243103686`
+
+`Bowl of 4 slices has volume of 814.050135042`
+
+`Bowl of 5 slices has volume of 1177.34038382`
+
+`Bowl of 6 slices has volume of 1575.45209404`
+
+`Bowl of 7 slices has volume of 1965.23232794`
+
+`Bowl of 8 slices has volume of 2317.25951908`
+
+`Bowl of 9 slices has volume of 2543.03984026`
+
+`Bowl of 10 slices has volume of 2506.66968821`
+
+`Bowl of 11 slices has volume of 2340.83769464`
 
 
 ## Self-promoting Plug
