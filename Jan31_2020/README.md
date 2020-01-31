@@ -56,11 +56,11 @@ Then using the base height and the height of the tile we can calculate the heigh
 
 Finally I calculated the volume of a slice and therefore the entire bowl using the formula
 
-`base area = magna base * base height / 2`
+`base area = magna base * base height / 2
 
-`slice volume = base area * pyramid height / 3`
+slice volume = base area * pyramid height / 3
 
-`bowl volume = slice volume * number of tiles`
+bowl volume = slice volume * number of tiles`
 
 The results of using a number of traingles from 3 - 11 is as follows:
 
