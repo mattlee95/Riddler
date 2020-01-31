@@ -1,41 +1,77 @@
-# Riddler Classic : December 5th, 2019
+# Riddler Classic : January 31st, 2020
 
 
 
 
 ## Problem Statement
 
-From Austin Chen comes a riddle of efficiently finding a song:
+From Robert Berger comes a question of maximizing magnetic volume:
 
-You have a playlist with exactly 100 tracks (i.e., songs), numbered 1 to 100. To go to another track, there are two buttons you can press: (1) “Next,” which will take you to the next track in the list or back to song 1 if you are currently on track 100, and (2) “Random,” which will take you to a track chosen uniformly from among the 100 tracks. Pressing “Random” can restart the track you’re already listening to — this will happen 1 percent of the time you press the “Random” button.
+Robert’s daughter has a set of Magna-Tiles, which, as their name implies, are tiles with magnets on the edges that can be used to build various polygons and polyhedra. Some of the tiles are identical isosceles triangles with one 30 degree angle and two 75 degree angles. If you were to arrange 12 of these tiles with their 30 degree angles in the center, they would lay flat and form a regular dodecagon. If you were to put fewer (between three and 11) of those tiles together in a similar way, they would form a pyramid whose base is a regular polygon. Robert has graciously provided a photo of the resulting pyramids when three and 11 tiles are used:
 
-For example, if you started on track 73, and you pressed the buttons in the sequence “Random, Next, Random, Random, Next, Next, Random, Next,” you might get the following sequence of track numbers: 73, 30, 31, 67, 12, 13, 14, 89, 90. You always know the number of the track you’re currently listening to.
+![Image: Riddler Image](https://fivethirtyeight.com/wp-content/uploads/2020/01/pyramids.png?w=1150)
 
-Your goal is to get to your favorite song (on track 42, of course) with as few button presses as possible. What should your general strategy be? Assuming you start on a random track, what is the average number of button presses you would need to make to reach your favorite song?
+3 magnatiles arranged into a tall pyramid, and 11 magnatiles arranged into a short pyramid.
+If Robert wanted to maximize the volume contained within the resulting pyramid (presumably to store as much candy for his daughter as possible), how many tiles should he use?
 
 
 ## Solution
 
-The strategy that will result in the fewest button presses as possible is to press the "Random" button until you are within 13 "Next" button presses of the desired song. Then press "Next" until you reach your desired song.
+The number of triangle manga tiles that create a pyramid shape with the greatest volume is 9.  Under the assumption that the base of these magna tiles is 10 units long the volume is as follows:
 
-For this strategy `Expected Moves = 12.6428571429`
+`Volume of Shape of 9 tiles = 2543.03984026`
+
+Full results for all shapes below.
 
 
 ## Solution Methodology
 
-For this solution I was operating under the intutition that the best strategy would be cases which defined when to press "Random" vs "Next".  Since each random selection was independent of one another this case would remain constant throughout the scenario.
+For this solution the difficult part was determining a methmod to find the volume of the pyramid shapes created by a certain number of the triangle magna tiles.  To begin I started by isolating the problem to solving for the volume of an individual slice and then multiplying that volume by the corresponding number of slices in the shape.
 
-I began by creating a simple Python script [songSkipSim.py](https://github.com/mattlee95/Riddler/blob/master/Dec5_2019/songSkipSim.py) in order to simulate the problem to get a good idea of the range I was going to be looking at.
+Narrowing the problem down further I found that the majority of the problem was solving for the dimensions of two of the triangles of the triangular based pyramid slice.  The two triangles were the actual manga tile traingle and what I called the base triangle (think of this as the triangular shadow cast when the magna tile is leaning into the shape.
 
-The script gave me a pretty good idea I was looking at the optimal strategy being use "Random" when further than the threshold "Next" clicks away otherwise using "Next" where the threshold was in the range of 10 - 15.
-  
-I recognized for the case of X = 0 (Use "Random" until desired song is reached) we would be dealing with a standard geometric distribution with a probability of 1 / 100.  Using the summation representation of a geometric distribution, I was able to write an formula for the expected number of moves for any threshold value. For `x` being the number of "Random" choices before getting a song within the `threshold` and `n` being the number of songs the following is true.
 
-![Image: Summation Formula](https://github.com/mattlee95/Riddler/blob/master/Dec5_2019/summationFormula.png)
+# Magna Tile Triangle
 
-I created the program [songSkipCalc.py](https://github.com/mattlee95/Riddler/blob/master/Dec5_2019/songSkipCalc.py) in order to solve the summation I above.  I graphed the results (expected number of moves to get to a song of choice for different threshold values) to illistrate a threshold of 13 being the optimized solution.
+For the magna tile triangle I gave some placeholder for the dimensions so I would have an acutal value for each calculated volume.  I chose to make the base of the triangle 10 units long.  This in turn, since it is a 75, 75, 30 isoceles triangle make the height of the tile 18.66 units long.
 
-![Graph: Relationship Between Threshold and Expected Moves](https://github.com/mattlee95/Riddler/blob/master/Dec5_2019/100SongsFull.png)
+![Image: Magna Tile Triangle Diagram](https://github.com/mattlee95/Riddler/blob/master/Jan31_2020/diagrams/diagramMagna.gif)
+
+
+# Base Triangle
+
+For the base triangle, I was able to take the base value of the manga tile triangle and use it for the base as well.  I was able to determine the angles of the triangle based on the regular polygon formed when making a pyramid of n triangular tiles.
+
+`base angle = (180deg * (num_slices - 2) / (num_slices)) / 2`
+
+Using this angle I was then able to calculate the height of the base triangle using the formula
+
+`base height = (base / 2) / cos(base angle)`
+
+Then using the base height and the height of the tile we can calculate the height of the pyramid using the formula
+
+`pyramid height = magna height * cos(sin-1(base height / magna height))`
+
+![Image: Base Triangle Diagram](https://github.com/mattlee95/Riddler/blob/master/Jan31_2020/diagrams/diagramBase.gif)
+
+Finally I calculated the volume of a slice and therefore the entire bowl using the formula
+
+`base area = magna base * base height / 2`
+`slice volume = base area * pyramid height / 3`
+`bowl volume = slice volume * number of tiles`
+
+The results of using a number of traingles from 3 - 11 is as follows:
+
+`Bowl of 3 slices has volume of 512.243103686
+Bowl of 4 slices has volume of 814.050135042
+Bowl of 5 slices has volume of 1177.34038382
+Bowl of 6 slices has volume of 1575.45209404
+Bowl of 7 slices has volume of 1965.23232794
+Bowl of 8 slices has volume of 2317.25951908
+Bowl of 9 slices has volume of 2543.03984026
+Bowl of 10 slices has volume of 2506.66968821
+Bowl of 11 slices has volume of 2340.83769464`
+
 
 ## Self-promoting Plug
 
