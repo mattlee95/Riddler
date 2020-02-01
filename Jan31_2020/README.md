@@ -64,6 +64,18 @@ Finally I calculated the volume of a slice and therefore the entire bowl using t
 
 The results of using a number of traingles from 3 - 11 is as follows:
 
+|Number of Magna Tiles|Volume|
+|--|--|
+|3|512.243103686
+|4|814.050135042
+|5|1177.34038382
+|6|1575.45209404
+|7|1965.23232794
+|8|2317.25951908
+|9|2543.03984026
+|10|2506.66968821
+|11|2340.83769464
+
   - Bowl of 3 slices has volume of 512.243103686
 
   - Bowl of 4 slices has volume of 814.050135042
