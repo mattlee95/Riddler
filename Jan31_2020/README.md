@@ -56,31 +56,31 @@ Then using the base height and the height of the tile we can calculate the heigh
 
 Finally I calculated the volume of a slice and therefore the entire bowl using the formula
 
-`base area = magna base * base height / 2
+`base area = magna base * base height / 2`
 
-slice volume = base area * pyramid height / 3
+`slice volume = base area * pyramid height / 3`
 
-bowl volume = slice volume * number of tiles`
+`bowl volume = slice volume * number of tiles`
 
 The results of using a number of traingles from 3 - 11 is as follows:
 
-`Bowl of 3 slices has volume of 512.243103686`
+  - Bowl of 3 slices has volume of 512.243103686
 
-`Bowl of 4 slices has volume of 814.050135042`
+  - Bowl of 4 slices has volume of 814.050135042
 
-`Bowl of 5 slices has volume of 1177.34038382`
+  - Bowl of 5 slices has volume of 1177.34038382
 
-`Bowl of 6 slices has volume of 1575.45209404`
+  - Bowl of 6 slices has volume of 1575.45209404
 
-`Bowl of 7 slices has volume of 1965.23232794`
+  - Bowl of 7 slices has volume of 1965.23232794
 
-`Bowl of 8 slices has volume of 2317.25951908`
+  - Bowl of 8 slices has volume of 2317.25951908
 
-`Bowl of 9 slices has volume of 2543.03984026`
+  - Bowl of 9 slices has volume of 2543.03984026
 
-`Bowl of 10 slices has volume of 2506.66968821`
+  - Bowl of 10 slices has volume of 2506.66968821
 
-`Bowl of 11 slices has volume of 2340.83769464`
+  - Bowl of 11 slices has volume of 2340.83769464
 
 
 ## Self-promoting Plug
