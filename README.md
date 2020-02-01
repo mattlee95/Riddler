@@ -3,6 +3,8 @@
 
 ## Table of Contents
 
+January 31st 2020: [Magna Tiles](https://github.com/mattlee95/Riddler/tree/master/Jan31_2020)
+
 January 10th 2020: [Gematria](https://github.com/mattlee95/Riddler/tree/master/Jan10_2020)
 
 January 3rd 2020: [Spelling Bee](https://github.com/mattlee95/Riddler/tree/master/Jan3_2020)
