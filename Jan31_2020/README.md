@@ -72,7 +72,7 @@ The results of using a number of traingles from 3 - 11 is as follows:
 |6|1575.45209404
 |7|1965.23232794
 |8|2317.25951908
-|9(most volume)|2543.03984026
+|9 (most volume)|2543.03984026
 |10|2506.66968821
 |11|2340.83769464
 
