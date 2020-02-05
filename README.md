@@ -3,7 +3,7 @@
 
 ## Table of Contents
 
-|Date|Problem(s)|Language(s)|Tags|
+|Date|Problem(s)|Language(s)|Tag(s)|
 |--|--|--|--|
 |January 31st 2020|[Magna Tiles](https://github.com/mattlee95/Riddler/tree/master/Jan31_2020)|Python|Geometry
 |January 10th 2020|[Gematria](https://github.com/mattlee95/Riddler/tree/master/Jan10_2020)|Python|
