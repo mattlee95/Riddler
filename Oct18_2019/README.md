@@ -30,6 +30,8 @@ I solved this problem by created a program in python to determine whether or not
 Going off of this function I knew that once I found 19 consecutive values that were divisible all other values would be divisible since $19 was the smallest denomination of curreny
 The program interates up from 0 until it finds 19 values in a row that are divisible and prints the last indivisible value it encountered.
 
+The script initially took quite a long time to run since for every amount of money the program went completely though every permutation of division of currency.  Using some dynamic programming I created a list of all amounts found to be evenly divisible and one of all amounts found not to be divisible.  This drastically cut down on the runtime of the script since in effect the script only now had to solve for a single round of subracting each currency denomination.
+
 A more in-depth explaination of the algorithm can be found in riddlerCurrency.py
 
 I could not help but noticing for both instances the highest indivisible value could be calculated using the formula:
