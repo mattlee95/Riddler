@@ -1,0 +1,40 @@
+Probability: 0.474261742386
+-9.5
+Probability: 0.481534369499
+-8.5
+Probability: 0.491425341637
+-7.5
+Probability: 0.504330385031
+-6.5
+Probability: 0.520486929289
+-5.5
+Probability: 0.539899638263
+-4.5
+Probability: 0.562288783171
+-3.5
+Probability: 0.587077429279
+-2.5
+Probability: 0.61342664867
+-1.5
+Probability: 0.640317447276
+-0.5
+Probability: 0.640317447276
+0.5
+Probability: 0.640317447276
+1.5
+Probability: 0.61342664867
+2.5
+Probability: 0.61342664867
+3.5
+Probability: 0.587077429279
+4.5
+Probability: 0.587077429279
+5.5
+Probability: 0.562288783171
+6.5
+Probability: 0.562288783171
+7.5
+Probability: 0.539899638263
+8.5
+Probability: 0.539899638263
+9.5

@@ -39,8 +39,7 @@ next_level = None
 curr_flip = None
 
 #Thresholds to swap variance strategies (coins)
-threshold_hv_to_lv = None
-threshold_lv_to_hv = None
+threshold = None
 
 #Probability of 1 point coin
 p_heads = None
@@ -64,8 +63,7 @@ def calc_next_level():
     global next_level
     global curr_flip
 
-    global threshold_hv_to_lv
-    global threshold_lv_to_hv
+    global threshold
 
     flag_incorperated_h = None
     flag_incorperated_t = None
@@ -83,7 +81,9 @@ def calc_next_level():
             node_heads[PROB] = node_heads[PROB] * .5
         else:
             node_heads[PROB] = node_heads[PROB] * p_heads
-        if (node_heads[STEP] == HIGHVAR) and (node_heads[VAL] >= threshold_hv_to_lv[curr_flip]):
+        if threshold[curr_flip] > node_heads[VAL]:
+            node_heads[STEP] = HIGHVAR
+        else:
             node_heads[STEP] = LOWVAR
 
         node_tails = list(node)
@@ -92,8 +92,10 @@ def calc_next_level():
             node_tails[PROB] = node_tails[PROB] * .5
         else:
             node_tails[PROB] = node_tails[PROB] * (1 - p_heads)
-        if (node_tails[STEP] == LOWVAR) and (node_tails[VAL] <= threshold_lv_to_hv[curr_flip]):
+        if threshold[curr_flip] > node_tails[VAL]:
             node_tails[STEP] = HIGHVAR
+        else:
+            node_tails[STEP] = LOWVAR
 
 
         for i in range(len(next_level)):
@@ -122,7 +124,10 @@ def init_level():
     global next_level
     global curr_flip
 
-    root_node = [0, 1, HIGHVAR]
+    if 0 < threshold:
+        root_node = [0, 1, HIGHVAR]
+    else:
+        root_node = [0, 1, LOWVAR]
     curr_level = list()
     curr_level.append(root_node)
 
@@ -131,19 +136,16 @@ def init_level():
     curr_flip = 0
 
 
-def init_thresholds(start_high, start_low):
-    global threshold_hv_to_lv
-    global threshold_lv_to_hv
+def init_thresholds(thresh):
+    global threshold
 
-    threshold_hv_to_lv = [start_high] * 100
-    threshold_lv_to_hv = [start_low] * 100
+    threshold = [thresh] * 100
 
 
 def run_for_threshold():
     global curr_flip
 
     init_level()
-    #init_thresholds()
 
     while curr_flip < 100:
 
@@ -156,8 +158,7 @@ def run_for_threshold():
     probability = calc_prob_win()
     #print "Probability: {0}".format(probability)
     if THRESH_DEBUG:
-        print threshold_hv_to_lv
-        print threshold_lv_to_hv
+        print threshold
     return probability
 
 #init_thresholds(0,0)
@@ -186,26 +187,23 @@ Turns out the most optimal thresholds are 0, the answer is as simple as:
 
 
 def optimize_threshold_old(coin_prob):
-    global threshold_hv_to_lv
-    global threshold_lv_to_hv
+    global threshold
     global p_heads
 
     p_heads = coin_prob
     print p_heads
 
-    hv_limit = 0
-    lv_limit = 0
+    limit = 0
 
-    init_thresholds(hv_limit, lv_limit)
+    init_thresholds(limit)
 
     last_last_prob = 0
     last_prob = 0
     prob = 0
 
-    for i in range(200):
+    for i in range(100):
 
-            creep_in_hv()
-            creep_in_lv()
+            creep_thresh(i)
 
             prob = run_for_threshold()
 
@@ -219,57 +217,37 @@ def optimize_threshold_old(coin_prob):
 
     print "1-Point Coin Heads Probability: {0}".format(coin_prob)
     print "Optimzed Probability: {0}".format(optimized_prob)
-    print "High Var to Low Var Thresh: {0}".format(threshold_hv_to_lv)
-    print "Low Var to High Var Thresh: {0}".format(threshold_lv_to_hv)
+    print "High Var to Low Var Thresh: {0}".format(threshold)
 
-def creep_in_hv():
-    global threshold_hv_to_lv
+def creep_thresh(i):
+    global threshold
     '''
     returns 1 if function futher optimized
     returns 0 if function could not futher optimize
     '''
     best_prob = run_for_threshold()
-    best_thresh = list(threshold_hv_to_lv)
+    best_thresh = list(threshold)
     prob = 0
 
-    for i in range(100):
-        threshold_hv_to_lv[i] = threshold_hv_to_lv[i] + 1
+    for n in range(min(2*i+1,100-i)):
+        threshold[i] = threshold[i] + 1
         prob = run_for_threshold()
 
         if prob >= best_prob:
             best_prob = prob
-            best_thresh = list(threshold_hv_to_lv)
+            best_thresh = list(threshold)
 
-    threshold_hv_to_lv = list(best_thresh)
-    print "Best Probability: {0}".format(best_prob)
+        print prob
+        print threshold
 
-
-def creep_in_lv():
-    global threshold_lv_to_hv
-    '''
-    returns 1 if function futher optimized
-    returns 0 if function could not futher optimize
-    '''
-    best_prob = run_for_threshold()
-    best_thresh = list(threshold_lv_to_hv)
-    prob = 0
-
-    for i in range(100):
-        threshold_lv_to_hv[i] = threshold_lv_to_hv[i] - 1
-        prob = run_for_threshold()
-
-        if prob >= best_prob:
-            best_prob = prob
-            best_thresh = list(threshold_lv_to_hv)
-
-    threshold_lv_to_hv = list(best_thresh)
+    threshold = list(best_thresh)
     print "Best Probability: {0}".format(best_prob)
 
 
 def optimize_unfair_coin():
 
-    for i in range(1,50):
-        optimize_threshold_old(.5 - (i/100.0))
+    for i in range(1,10):
+        optimize_threshold_old(.5 - (i*.05))
 
 
 optimize_unfair_coin()
