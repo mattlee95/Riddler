@@ -228,7 +228,7 @@ def creep_thresh(i):
     best_thresh = list(threshold)
     prob = 0
 
-    for n in range(min(2 * (i + 1) + 1,101-i)):
+    for n in range(min(2 * (i + 1) + 1,101 - i)):
         threshold[i] = threshold[i] + 1
         prob = run_for_threshold()
 
@@ -242,7 +242,7 @@ def creep_thresh(i):
     threshold = list(best_thresh)
     print "Best Probability: {0}".format(run_for_threshold())
 
-optimize_threshold_old(0.05)
+optimize_threshold_old(0)
 
 '''
 def optimize_unfair_coin():
