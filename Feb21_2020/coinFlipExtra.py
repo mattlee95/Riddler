@@ -62,7 +62,6 @@ def calc_next_level():
     global curr_level
     global next_level
     global curr_flip
-
     global threshold
 
     flag_incorperated_h = None
@@ -124,7 +123,7 @@ def init_level():
     global next_level
     global curr_flip
 
-    if 0 < threshold:
+    if 0 < threshold[0]:
         root_node = [0, 1, HIGHVAR]
     else:
         root_node = [0, 1, LOWVAR]
@@ -207,8 +206,8 @@ def optimize_threshold_old(coin_prob):
 
             prob = run_for_threshold()
 
-            if prob <= last_prob and prob <= last_last_prob:
-                break
+            #if prob <= last_prob and prob <= last_last_prob:
+               #break
 
             last_last_prob = last_prob
             last_prob = prob
@@ -229,7 +228,7 @@ def creep_thresh(i):
     best_thresh = list(threshold)
     prob = 0
 
-    for n in range(min(2*i+1,100-i)):
+    for n in range(min(2 * (i + 1) + 1,101-i)):
         threshold[i] = threshold[i] + 1
         prob = run_for_threshold()
 
@@ -241,14 +240,16 @@ def creep_thresh(i):
         print threshold
 
     threshold = list(best_thresh)
-    print "Best Probability: {0}".format(best_prob)
+    print "Best Probability: {0}".format(run_for_threshold())
 
+optimize_threshold_old(0.05)
 
+'''
 def optimize_unfair_coin():
 
-    for i in range(1,10):
+    for i in range(0,10):
         optimize_threshold_old(.5 - (i*.05))
 
 
 optimize_unfair_coin()
-
+'''
