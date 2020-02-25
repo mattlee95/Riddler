@@ -44,7 +44,7 @@ For the extra credit problem we were taked with solving the same game for soluti
 
 In these solutions you will see the optimal strategy represented by an array of High Variance to Low Variance thresholds.  These arrays represent the score you must have in order to switch from using the 2-point coin to the 1-point coin.
 
-For example, given array `[1,2,3,4]`, before turn 1 if you score is greater than array{0} (array{turn-1}) then you would use the 1-point coin otherwise you would use the 2-point coin:
+For example, given array `[1,2,3,4]`, before turn 1 if you score is greater than `1` (`array[0]` or `array[turn-1]`) then you would use the 1-point coin otherwise you would use the 2-point coin:
 
 |P(heads) for 1-point coin|Optimized P(win)|Optimal Threshold|
 |--|--|--|
