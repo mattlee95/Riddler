@@ -5,6 +5,7 @@
 
 |Date|Problem(s)|Language(s)|Tag(s)|
 |--|--|--|--|
+|February 21st, 2020|[Coin Game](https://github.com/mattlee95/Riddler/tree/master/Feb21_2020)|Python|Probability, Optimization
 |January 31st, 2020|[Magna Tiles](https://github.com/mattlee95/Riddler/tree/master/Jan31_2020)|Python|Geometry
 |January 10th, 2020|[Gematria](https://github.com/mattlee95/Riddler/tree/master/Jan10_2020)|Python|
 |January 3rd, 2020|[Spelling Bee](https://github.com/mattlee95/Riddler/tree/master/Jan3_2020)|Python|
