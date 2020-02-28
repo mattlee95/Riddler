@@ -19,10 +19,10 @@ A group size of 88 is the smallest sized group that has greater than a 50% chanc
 
 Other Notable Triple Birthday Probabilities:
 
- - Smallest group with better than even odds for 3 birthdays shared (n = 88) : P = 0.511065
- - Senate (n = 100) : P = 0.645864
- - House of Representatives (n = 435) : P = ~1.000000
- - Smallest group with better than even odds for 2 birthdays shared (n = 23) : P = 0.012705
+ - Smallest group with better than even odds for 3 birthdays shared `(n = 88)` : `P = 0.511065`
+ - Senate `(n = 100)` : `P = 0.645864`
+ - House of Representatives `(n = 435)` : `P = ~1.000000`
+ - Smallest group with better than even odds for 2 birthdays shared `(n = 23)` : `P = 0.012705`
 
 A list of probabilities for group sizes from 1 to 731 can be found in solution.txt
 
