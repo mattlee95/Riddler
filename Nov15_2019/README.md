@@ -40,7 +40,7 @@ Since the permutations of this problem can continue infintely, I needed a way of
 |.000000001  |0.473684210364  |
 
 
-Please see the source code and comments in 10sided.py for a more in depth description of the functions and algorithms used to calculate this scenarios average value.
+Please see the source code and comments in [10sided.py](https://github.com/mattlee95/Riddler/blob/master/Nov15_2019/10sided.py) for a more in depth description of the functions and algorithms used to calculate this scenarios average value.
 
 ## Self-promoting Plug
 
