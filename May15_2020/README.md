@@ -1,4 +1,4 @@
-# Riddler Classic : February 21st, 2020
+# Riddler Classic : May 15th, 2020
 
 
 
@@ -28,11 +28,11 @@ Solutions explained below
 
 Pretty straight forward brute force solution.  You'll see in the [code](https://github.com/mattlee95/Riddler/blob/master/May15_2020/diceAdvantages.cpp) that I am just using nested for loops from 1-20 to represent the values of each of the dice.  This means for the 4 roll conditions I'm using 4 nested loops, but I had a hard time trying to figure out am more effient way of getting an exact value for the expected value under these conditions.  Below are the expected values for each of the 5 conditons mentioned in the problem statement.
 
-`Advantage: 13.825`
-`Disadvantage: 7.175`
-`Advantage+Disadvantage (Single Dice): 10.5`
-`Advantage of Disadvantage: 9.83334`
-`Disadvantage of Advantage: 11.1667`
+Advantage: 13.825
+Disadvantage: 7.175
+Advantage+Disadvantage (Single Dice): 10.5
+Advantage of Disadvantage: 9.83334
+Disadvantage of Advantage: 11.1667
 
 
 ## Solution Methodology (Extra Credit)
