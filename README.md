@@ -5,6 +5,7 @@
 
 |Date|Problem(s)|Language(s)|Tag(s)|
 |--|--|--|--|
+|May 29th, 2020|[America's Zoom Call](https://github.com/mattlee95/Riddler/tree/master/May29_2020)|C++|Probability
 |May 15th, 2020|[Disadvantaged Dice](https://github.com/mattlee95/Riddler/tree/master/May15_2020)|C++|Probability
 |February 21st, 2020|[Coin Game](https://github.com/mattlee95/Riddler/tree/master/Feb21_2020)|Python|Probability, Optimization
 |January 31st, 2020|[Magna Tiles](https://github.com/mattlee95/Riddler/tree/master/Jan31_2020)|Python|Geometry
