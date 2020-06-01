@@ -34,7 +34,7 @@ This problem sticks out as the time I was most genuinely surprised by the mathem
 
 Knowing this I tried to calculate the true probability of the call for n = 2 all the way to n = 6 which seemed to be the limitation of my computer and my solution methodology. Luckily a pattern was evident that the probability of having one or more caller see everyone else on the call was always 2/3, no matter the size of n.  The same was true about the extra credit problem which, asides from n = 2 (for obvious reasons), all population sizes had the same proability of having 2+ callers see everyone else.
 
-Just to do some further due diligance on the problem, I wrote up a Monte Carlo simulation for population sizes ranging from n = 2 to n = 99.  Each population ran the simulation 1,000,000 times and the probabilities from the simulation backed up the pattern I was seeing on the all permuation calculations
+Just to do some further due diligance on the problem, I wrote up a Monte Carlo simulation for population sizes ranging from n = 2 to n = 99.  Each population size ran the simulation 1,000,000 times and the probabilities from the simulation backed up the pattern I was seeing on the all permuation calculations
 
 
 ## Self-promoting Plug
