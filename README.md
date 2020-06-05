@@ -3,7 +3,7 @@
 
 ## Table of Contents
 
-|Date|Problem(s)|Language(s)|Tag(s)|Published?|
+|Date|Problem(s)|Language(s)|Tag(s)|Solution Featured?|
 |--|--|--|--|--|
 |May 29th, 2020|[America's Zoom Call](https://github.com/mattlee95/Riddler/tree/master/May29_2020)|C++|Probability|[Yes](https://fivethirtyeight.com/features/can-you-pinpoint-the-planet/)
 |May 15th, 2020|[Disadvantaged Dice](https://github.com/mattlee95/Riddler/tree/master/May15_2020)|C++|Probability|
