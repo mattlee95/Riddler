@@ -5,24 +5,22 @@
 
 ## Problem Statement
 
-"Recent Riddlers have tackled  [Scrabble Superstrings](https://fivethirtyeight.com/features/whats-your-best-scrabble-string/)  and  [road trips through 48 states](https://fivethirtyeight.com/features/can-you-escape-this-enchanted-maze/). For this week’s Riddler Classic, Max Maguire combines these two puzzles into one:
+From mathematician (and author of Basic Probability: What Every Math Student Should Know) Henk Tijms comes a choice matter of chance and chocolate:
 
-The challenge is to find the longest string of letters in which (1) every pair of consecutive letters is a two-letter state or territory abbreviation, and (2) no state abbreviation occurs more than once. For example, Guam, Utah and Texas can be combined into the valid four-letter string GUTX. Another valid string is ALAK (Alabama, Louisiana and Alaska), while ALAL (Alabama, Louisiana and Alabama) is invalid because it includes the same state, Alabama, twice.
+I have 10 chocolates in a bag: Two are milk chocolate, while the other eight are dark chocolate. One at a time, I randomly pull chocolates from the bag and eat them — that is, until I pick a chocolate of the other kind. When I get to the other type of chocolate, I put it back in the bag and start drawing again with the remaining chocolates. I keep going until I have eaten all 10 chocolates.
 
-For reference, the full list of abbreviations is available  [here](https://pe.usps.com/text/pub28/28apb.htm), courtesy of the United States Postal Service."
+For example, if I first pull out a dark chocolate, I will eat it. (I’ll always eat the first chocolate I pull out.) If I pull out a second dark chocolate, I will eat that as well. If the third one is milk chocolate, I will not eat it (yet), and instead place it back in the bag. Then I will start again, eating the first chocolate I pull out.
+
+What are the chances that the last chocolate I eat is milk chocolate?
 
 ## Solution
 
-There are 9984 unique strings of length 31 (30 states used) all of which begin with the Federated States of Micronesia (FM) and end in an abbreviation ending in "E"
+The Probability of selecting a certain type of chocolate as the last peice is as follows:
 
-A list of these solutions can be found in solution.txt
+`P(milk) = 0.5, P(dark) = 0.5`
 
 ## Solution Methodology
 
-I think of this solution as a breadth first computation down a tree containing nodes of:
-[("current string", [list of unused states]), ...]
+For permutational statistics problems like this I like to use a psuedo tree down method of solving where I don't necessarily care about each nodes connections, rather the level on the tree it occupies.
 
-For each legal string that can be created for each node we add that to a list of nodes in the next level: 
-[("current string + legal state", [list of unused states - legal state just added]), ...]
-
-We continue until we reach a level which cannot be populated with legal additions to the strings.
+For full commented source code for this solution please see (ChocolateBag.py)[https://github.com/mattlee95/Riddler/blob/master/Oct2_2020/ChocolateBag.py]
