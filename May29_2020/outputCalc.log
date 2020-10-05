@@ -1,0 +1,34 @@
+2 caller Zoom call
+Permutations: 24
+	Successes (at least 1 caller): 16
+	Success Rate (1+ caller): 0.666667
+	Successes (at least 2 callers): 16
+	Success Rate (2+ caller): 0.666667
+
+3 caller Zoom call
+Permutations: 720
+	Successes (at least 1 caller): 480
+	Success Rate (1+ caller): 0.666667
+	Successes (at least 2 callers): 288
+	Success Rate (2+ caller): 0.4
+
+4 caller Zoom call
+Permutations: 40320
+	Successes (at least 1 caller): 26880
+	Success Rate (1+ caller): 0.666667
+	Successes (at least 2 callers): 16128
+	Success Rate (2+ caller): 0.4
+
+5 caller Zoom call
+Permutations: 3628800
+	Successes (at least 1 caller): 2419200
+	Success Rate (1+ caller): 0.666667
+	Successes (at least 2 callers): 1451520
+	Success Rate (2+ caller): 0.4
+
+6 caller Zoom call
+Permutations: 479001600
+	Successes (at least 1 caller): 319334400
+	Success Rate (1+ caller): 0.666667
+	Successes (at least 2 callers): 191600640
+	Success Rate (2+ caller): 0.4

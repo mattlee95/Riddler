@@ -1,0 +1,686 @@
+2 caller Zoom call
+Simulations: 1000000
+	Successes (at least 1 caller): 666198
+	Success Rate (1+ caller): 0.666198
+	Successes (at least 2 callers): 666198
+	Success Rate (2+ caller): 0.666198
+
+3 caller Zoom call
+Simulations: 1000000
+	Successes (at least 1 caller): 666531
+	Success Rate (1+ caller): 0.666531
+	Successes (at least 2 callers): 399623
+	Success Rate (2+ caller): 0.399623
+
+4 caller Zoom call
+Simulations: 1000000
+	Successes (at least 1 caller): 667266
+	Success Rate (1+ caller): 0.667266
+	Successes (at least 2 callers): 400368
+	Success Rate (2+ caller): 0.400368
+
+5 caller Zoom call
+Simulations: 1000000
+	Successes (at least 1 caller): 666786
+	Success Rate (1+ caller): 0.666786
+	Successes (at least 2 callers): 400031
+	Success Rate (2+ caller): 0.400031
+
+6 caller Zoom call
+Simulations: 1000000
+	Successes (at least 1 caller): 666081
+	Success Rate (1+ caller): 0.666081
+	Successes (at least 2 callers): 399991
+	Success Rate (2+ caller): 0.399991
+
+7 caller Zoom call
+Simulations: 1000000
+	Successes (at least 1 caller): 666771
+	Success Rate (1+ caller): 0.666771
+	Successes (at least 2 callers): 400118
+	Success Rate (2+ caller): 0.400118
+
+8 caller Zoom call
+Simulations: 1000000
+	Successes (at least 1 caller): 667062
+	Success Rate (1+ caller): 0.667062
+	Successes (at least 2 callers): 400428
+	Success Rate (2+ caller): 0.400428
+
+9 caller Zoom call
+Simulations: 1000000
+	Successes (at least 1 caller): 666613
+	Success Rate (1+ caller): 0.666613
+	Successes (at least 2 callers): 399253
+	Success Rate (2+ caller): 0.399253
+
+10 caller Zoom call
+Simulations: 1000000
+	Successes (at least 1 caller): 666982
+	Success Rate (1+ caller): 0.666982
+	Successes (at least 2 callers): 400531
+	Success Rate (2+ caller): 0.400531
+
+11 caller Zoom call
+Simulations: 1000000
+	Successes (at least 1 caller): 666078
+	Success Rate (1+ caller): 0.666078
+	Successes (at least 2 callers): 399676
+	Success Rate (2+ caller): 0.399676
+
+12 caller Zoom call
+Simulations: 1000000
+	Successes (at least 1 caller): 666561
+	Success Rate (1+ caller): 0.666561
+	Successes (at least 2 callers): 400138
+	Success Rate (2+ caller): 0.400138
+
+13 caller Zoom call
+Simulations: 1000000
+	Successes (at least 1 caller): 666146
+	Success Rate (1+ caller): 0.666146
+	Successes (at least 2 callers): 399359
+	Success Rate (2+ caller): 0.399359
+
+14 caller Zoom call
+Simulations: 1000000
+	Successes (at least 1 caller): 665649
+	Success Rate (1+ caller): 0.665649
+	Successes (at least 2 callers): 399909
+	Success Rate (2+ caller): 0.399909
+
+15 caller Zoom call
+Simulations: 1000000
+	Successes (at least 1 caller): 666554
+	Success Rate (1+ caller): 0.666554
+	Successes (at least 2 callers): 400120
+	Success Rate (2+ caller): 0.40012
+
+16 caller Zoom call
+Simulations: 1000000
+	Successes (at least 1 caller): 666824
+	Success Rate (1+ caller): 0.666824
+	Successes (at least 2 callers): 399718
+	Success Rate (2+ caller): 0.399718
+
+17 caller Zoom call
+Simulations: 1000000
+	Successes (at least 1 caller): 665441
+	Success Rate (1+ caller): 0.665441
+	Successes (at least 2 callers): 399269
+	Success Rate (2+ caller): 0.399269
+
+18 caller Zoom call
+Simulations: 1000000
+	Successes (at least 1 caller): 667146
+	Success Rate (1+ caller): 0.667146
+	Successes (at least 2 callers): 399975
+	Success Rate (2+ caller): 0.399975
+
+19 caller Zoom call
+Simulations: 1000000
+	Successes (at least 1 caller): 665908
+	Success Rate (1+ caller): 0.665908
+	Successes (at least 2 callers): 399672
+	Success Rate (2+ caller): 0.399672
+
+20 caller Zoom call
+Simulations: 1000000
+	Successes (at least 1 caller): 666746
+	Success Rate (1+ caller): 0.666746
+	Successes (at least 2 callers): 400103
+	Success Rate (2+ caller): 0.400103
+
+21 caller Zoom call
+Simulations: 1000000
+	Successes (at least 1 caller): 666217
+	Success Rate (1+ caller): 0.666217
+	Successes (at least 2 callers): 399821
+	Success Rate (2+ caller): 0.399821
+
+22 caller Zoom call
+Simulations: 1000000
+	Successes (at least 1 caller): 666837
+	Success Rate (1+ caller): 0.666837
+	Successes (at least 2 callers): 399901
+	Success Rate (2+ caller): 0.399901
+
+23 caller Zoom call
+Simulations: 1000000
+	Successes (at least 1 caller): 665836
+	Success Rate (1+ caller): 0.665836
+	Successes (at least 2 callers): 400310
+	Success Rate (2+ caller): 0.40031
+
+24 caller Zoom call
+Simulations: 1000000
+	Successes (at least 1 caller): 667726
+	Success Rate (1+ caller): 0.667726
+	Successes (at least 2 callers): 401087
+	Success Rate (2+ caller): 0.401087
+
+25 caller Zoom call
+Simulations: 1000000
+	Successes (at least 1 caller): 666781
+	Success Rate (1+ caller): 0.666781
+	Successes (at least 2 callers): 399863
+	Success Rate (2+ caller): 0.399863
+
+26 caller Zoom call
+Simulations: 1000000
+	Successes (at least 1 caller): 666623
+	Success Rate (1+ caller): 0.666623
+	Successes (at least 2 callers): 399679
+	Success Rate (2+ caller): 0.399679
+
+27 caller Zoom call
+Simulations: 1000000
+	Successes (at least 1 caller): 666756
+	Success Rate (1+ caller): 0.666756
+	Successes (at least 2 callers): 400092
+	Success Rate (2+ caller): 0.400092
+
+28 caller Zoom call
+Simulations: 1000000
+	Successes (at least 1 caller): 665926
+	Success Rate (1+ caller): 0.665926
+	Successes (at least 2 callers): 399577
+	Success Rate (2+ caller): 0.399577
+
+29 caller Zoom call
+Simulations: 1000000
+	Successes (at least 1 caller): 665663
+	Success Rate (1+ caller): 0.665663
+	Successes (at least 2 callers): 399379
+	Success Rate (2+ caller): 0.399379
+
+30 caller Zoom call
+Simulations: 1000000
+	Successes (at least 1 caller): 667248
+	Success Rate (1+ caller): 0.667248
+	Successes (at least 2 callers): 400004
+	Success Rate (2+ caller): 0.400004
+
+31 caller Zoom call
+Simulations: 1000000
+	Successes (at least 1 caller): 666557
+	Success Rate (1+ caller): 0.666557
+	Successes (at least 2 callers): 400444
+	Success Rate (2+ caller): 0.400444
+
+32 caller Zoom call
+Simulations: 1000000
+	Successes (at least 1 caller): 666884
+	Success Rate (1+ caller): 0.666884
+	Successes (at least 2 callers): 400468
+	Success Rate (2+ caller): 0.400468
+
+33 caller Zoom call
+Simulations: 1000000
+	Successes (at least 1 caller): 667374
+	Success Rate (1+ caller): 0.667374
+	Successes (at least 2 callers): 400528
+	Success Rate (2+ caller): 0.400528
+
+34 caller Zoom call
+Simulations: 1000000
+	Successes (at least 1 caller): 666971
+	Success Rate (1+ caller): 0.666971
+	Successes (at least 2 callers): 399998
+	Success Rate (2+ caller): 0.399998
+
+35 caller Zoom call
+Simulations: 1000000
+	Successes (at least 1 caller): 666685
+	Success Rate (1+ caller): 0.666685
+	Successes (at least 2 callers): 399720
+	Success Rate (2+ caller): 0.39972
+
+36 caller Zoom call
+Simulations: 1000000
+	Successes (at least 1 caller): 666852
+	Success Rate (1+ caller): 0.666852
+	Successes (at least 2 callers): 400028
+	Success Rate (2+ caller): 0.400028
+
+37 caller Zoom call
+Simulations: 1000000
+	Successes (at least 1 caller): 665988
+	Success Rate (1+ caller): 0.665988
+	Successes (at least 2 callers): 400143
+	Success Rate (2+ caller): 0.400143
+
+38 caller Zoom call
+Simulations: 1000000
+	Successes (at least 1 caller): 666459
+	Success Rate (1+ caller): 0.666459
+	Successes (at least 2 callers): 399966
+	Success Rate (2+ caller): 0.399966
+
+39 caller Zoom call
+Simulations: 1000000
+	Successes (at least 1 caller): 666411
+	Success Rate (1+ caller): 0.666411
+	Successes (at least 2 callers): 399879
+	Success Rate (2+ caller): 0.399879
+
+40 caller Zoom call
+Simulations: 1000000
+	Successes (at least 1 caller): 666642
+	Success Rate (1+ caller): 0.666642
+	Successes (at least 2 callers): 399700
+	Success Rate (2+ caller): 0.3997
+
+41 caller Zoom call
+Simulations: 1000000
+	Successes (at least 1 caller): 667012
+	Success Rate (1+ caller): 0.667012
+	Successes (at least 2 callers): 400446
+	Success Rate (2+ caller): 0.400446
+
+42 caller Zoom call
+Simulations: 1000000
+	Successes (at least 1 caller): 667007
+	Success Rate (1+ caller): 0.667007
+	Successes (at least 2 callers): 400238
+	Success Rate (2+ caller): 0.400238
+
+43 caller Zoom call
+Simulations: 1000000
+	Successes (at least 1 caller): 668067
+	Success Rate (1+ caller): 0.668067
+	Successes (at least 2 callers): 400661
+	Success Rate (2+ caller): 0.400661
+
+44 caller Zoom call
+Simulations: 1000000
+	Successes (at least 1 caller): 666259
+	Success Rate (1+ caller): 0.666259
+	Successes (at least 2 callers): 399777
+	Success Rate (2+ caller): 0.399777
+
+45 caller Zoom call
+Simulations: 1000000
+	Successes (at least 1 caller): 665777
+	Success Rate (1+ caller): 0.665777
+	Successes (at least 2 callers): 399990
+	Success Rate (2+ caller): 0.39999
+
+46 caller Zoom call
+Simulations: 1000000
+	Successes (at least 1 caller): 666661
+	Success Rate (1+ caller): 0.666661
+	Successes (at least 2 callers): 400483
+	Success Rate (2+ caller): 0.400483
+
+47 caller Zoom call
+Simulations: 1000000
+	Successes (at least 1 caller): 667424
+	Success Rate (1+ caller): 0.667424
+	Successes (at least 2 callers): 400783
+	Success Rate (2+ caller): 0.400783
+
+48 caller Zoom call
+Simulations: 1000000
+	Successes (at least 1 caller): 667479
+	Success Rate (1+ caller): 0.667479
+	Successes (at least 2 callers): 399714
+	Success Rate (2+ caller): 0.399714
+
+49 caller Zoom call
+Simulations: 1000000
+	Successes (at least 1 caller): 666283
+	Success Rate (1+ caller): 0.666283
+	Successes (at least 2 callers): 399280
+	Success Rate (2+ caller): 0.39928
+
+50 caller Zoom call
+Simulations: 1000000
+	Successes (at least 1 caller): 667379
+	Success Rate (1+ caller): 0.667379
+	Successes (at least 2 callers): 399876
+	Success Rate (2+ caller): 0.399876
+
+51 caller Zoom call
+Simulations: 1000000
+	Successes (at least 1 caller): 665973
+	Success Rate (1+ caller): 0.665973
+	Successes (at least 2 callers): 399423
+	Success Rate (2+ caller): 0.399423
+
+52 caller Zoom call
+Simulations: 1000000
+	Successes (at least 1 caller): 666505
+	Success Rate (1+ caller): 0.666505
+	Successes (at least 2 callers): 399684
+	Success Rate (2+ caller): 0.399684
+
+53 caller Zoom call
+Simulations: 1000000
+	Successes (at least 1 caller): 667157
+	Success Rate (1+ caller): 0.667157
+	Successes (at least 2 callers): 400104
+	Success Rate (2+ caller): 0.400104
+
+54 caller Zoom call
+Simulations: 1000000
+	Successes (at least 1 caller): 667502
+	Success Rate (1+ caller): 0.667502
+	Successes (at least 2 callers): 400549
+	Success Rate (2+ caller): 0.400549
+
+55 caller Zoom call
+Simulations: 1000000
+	Successes (at least 1 caller): 666812
+	Success Rate (1+ caller): 0.666812
+	Successes (at least 2 callers): 400624
+	Success Rate (2+ caller): 0.400624
+
+56 caller Zoom call
+Simulations: 1000000
+	Successes (at least 1 caller): 666826
+	Success Rate (1+ caller): 0.666826
+	Successes (at least 2 callers): 400643
+	Success Rate (2+ caller): 0.400643
+
+57 caller Zoom call
+Simulations: 1000000
+	Successes (at least 1 caller): 666995
+	Success Rate (1+ caller): 0.666995
+	Successes (at least 2 callers): 400298
+	Success Rate (2+ caller): 0.400298
+
+58 caller Zoom call
+Simulations: 1000000
+	Successes (at least 1 caller): 665799
+	Success Rate (1+ caller): 0.665799
+	Successes (at least 2 callers): 398477
+	Success Rate (2+ caller): 0.398477
+
+59 caller Zoom call
+Simulations: 1000000
+	Successes (at least 1 caller): 666418
+	Success Rate (1+ caller): 0.666418
+	Successes (at least 2 callers): 400402
+	Success Rate (2+ caller): 0.400402
+
+60 caller Zoom call
+Simulations: 1000000
+	Successes (at least 1 caller): 666652
+	Success Rate (1+ caller): 0.666652
+	Successes (at least 2 callers): 400171
+	Success Rate (2+ caller): 0.400171
+
+61 caller Zoom call
+Simulations: 1000000
+	Successes (at least 1 caller): 665870
+	Success Rate (1+ caller): 0.66587
+	Successes (at least 2 callers): 399188
+	Success Rate (2+ caller): 0.399188
+
+62 caller Zoom call
+Simulations: 1000000
+	Successes (at least 1 caller): 665990
+	Success Rate (1+ caller): 0.66599
+	Successes (at least 2 callers): 400293
+	Success Rate (2+ caller): 0.400293
+
+63 caller Zoom call
+Simulations: 1000000
+	Successes (at least 1 caller): 666690
+	Success Rate (1+ caller): 0.66669
+	Successes (at least 2 callers): 400099
+	Success Rate (2+ caller): 0.400099
+
+64 caller Zoom call
+Simulations: 1000000
+	Successes (at least 1 caller): 666760
+	Success Rate (1+ caller): 0.66676
+	Successes (at least 2 callers): 399997
+	Success Rate (2+ caller): 0.399997
+
+65 caller Zoom call
+Simulations: 1000000
+	Successes (at least 1 caller): 667416
+	Success Rate (1+ caller): 0.667416
+	Successes (at least 2 callers): 399457
+	Success Rate (2+ caller): 0.399457
+
+66 caller Zoom call
+Simulations: 1000000
+	Successes (at least 1 caller): 666987
+	Success Rate (1+ caller): 0.666987
+	Successes (at least 2 callers): 399652
+	Success Rate (2+ caller): 0.399652
+
+67 caller Zoom call
+Simulations: 1000000
+	Successes (at least 1 caller): 667678
+	Success Rate (1+ caller): 0.667678
+	Successes (at least 2 callers): 401168
+	Success Rate (2+ caller): 0.401168
+
+68 caller Zoom call
+Simulations: 1000000
+	Successes (at least 1 caller): 666976
+	Success Rate (1+ caller): 0.666976
+	Successes (at least 2 callers): 399814
+	Success Rate (2+ caller): 0.399814
+
+69 caller Zoom call
+Simulations: 1000000
+	Successes (at least 1 caller): 667115
+	Success Rate (1+ caller): 0.667115
+	Successes (at least 2 callers): 399023
+	Success Rate (2+ caller): 0.399023
+
+70 caller Zoom call
+Simulations: 1000000
+	Successes (at least 1 caller): 667357
+	Success Rate (1+ caller): 0.667357
+	Successes (at least 2 callers): 400883
+	Success Rate (2+ caller): 0.400883
+
+71 caller Zoom call
+Simulations: 1000000
+	Successes (at least 1 caller): 667436
+	Success Rate (1+ caller): 0.667436
+	Successes (at least 2 callers): 401269
+	Success Rate (2+ caller): 0.401269
+
+72 caller Zoom call
+Simulations: 1000000
+	Successes (at least 1 caller): 667060
+	Success Rate (1+ caller): 0.66706
+	Successes (at least 2 callers): 400278
+	Success Rate (2+ caller): 0.400278
+
+73 caller Zoom call
+Simulations: 1000000
+	Successes (at least 1 caller): 667421
+	Success Rate (1+ caller): 0.667421
+	Successes (at least 2 callers): 400539
+	Success Rate (2+ caller): 0.400539
+
+74 caller Zoom call
+Simulations: 1000000
+	Successes (at least 1 caller): 665925
+	Success Rate (1+ caller): 0.665925
+	Successes (at least 2 callers): 399150
+	Success Rate (2+ caller): 0.39915
+
+75 caller Zoom call
+Simulations: 1000000
+	Successes (at least 1 caller): 666357
+	Success Rate (1+ caller): 0.666357
+	Successes (at least 2 callers): 400054
+	Success Rate (2+ caller): 0.400054
+
+76 caller Zoom call
+Simulations: 1000000
+	Successes (at least 1 caller): 666824
+	Success Rate (1+ caller): 0.666824
+	Successes (at least 2 callers): 399603
+	Success Rate (2+ caller): 0.399603
+
+77 caller Zoom call
+Simulations: 1000000
+	Successes (at least 1 caller): 666352
+	Success Rate (1+ caller): 0.666352
+	Successes (at least 2 callers): 399293
+	Success Rate (2+ caller): 0.399293
+
+78 caller Zoom call
+Simulations: 1000000
+	Successes (at least 1 caller): 666558
+	Success Rate (1+ caller): 0.666558
+	Successes (at least 2 callers): 399763
+	Success Rate (2+ caller): 0.399763
+
+79 caller Zoom call
+Simulations: 1000000
+	Successes (at least 1 caller): 667810
+	Success Rate (1+ caller): 0.66781
+	Successes (at least 2 callers): 400900
+	Success Rate (2+ caller): 0.4009
+
+80 caller Zoom call
+Simulations: 1000000
+	Successes (at least 1 caller): 666804
+	Success Rate (1+ caller): 0.666804
+	Successes (at least 2 callers): 400078
+	Success Rate (2+ caller): 0.400078
+
+81 caller Zoom call
+Simulations: 1000000
+	Successes (at least 1 caller): 666069
+	Success Rate (1+ caller): 0.666069
+	Successes (at least 2 callers): 399601
+	Success Rate (2+ caller): 0.399601
+
+82 caller Zoom call
+Simulations: 1000000
+	Successes (at least 1 caller): 666892
+	Success Rate (1+ caller): 0.666892
+	Successes (at least 2 callers): 399693
+	Success Rate (2+ caller): 0.399693
+
+83 caller Zoom call
+Simulations: 1000000
+	Successes (at least 1 caller): 666336
+	Success Rate (1+ caller): 0.666336
+	Successes (at least 2 callers): 399563
+	Success Rate (2+ caller): 0.399563
+
+84 caller Zoom call
+Simulations: 1000000
+	Successes (at least 1 caller): 666321
+	Success Rate (1+ caller): 0.666321
+	Successes (at least 2 callers): 399914
+	Success Rate (2+ caller): 0.399914
+
+85 caller Zoom call
+Simulations: 1000000
+	Successes (at least 1 caller): 667074
+	Success Rate (1+ caller): 0.667074
+	Successes (at least 2 callers): 399710
+	Success Rate (2+ caller): 0.39971
+
+86 caller Zoom call
+Simulations: 1000000
+	Successes (at least 1 caller): 667676
+	Success Rate (1+ caller): 0.667676
+	Successes (at least 2 callers): 400318
+	Success Rate (2+ caller): 0.400318
+
+87 caller Zoom call
+Simulations: 1000000
+	Successes (at least 1 caller): 666707
+	Success Rate (1+ caller): 0.666707
+	Successes (at least 2 callers): 400387
+	Success Rate (2+ caller): 0.400387
+
+88 caller Zoom call
+Simulations: 1000000
+	Successes (at least 1 caller): 666566
+	Success Rate (1+ caller): 0.666566
+	Successes (at least 2 callers): 399361
+	Success Rate (2+ caller): 0.399361
+
+89 caller Zoom call
+Simulations: 1000000
+	Successes (at least 1 caller): 667458
+	Success Rate (1+ caller): 0.667458
+	Successes (at least 2 callers): 400710
+	Success Rate (2+ caller): 0.40071
+
+90 caller Zoom call
+Simulations: 1000000
+	Successes (at least 1 caller): 666351
+	Success Rate (1+ caller): 0.666351
+	Successes (at least 2 callers): 399232
+	Success Rate (2+ caller): 0.399232
+
+91 caller Zoom call
+Simulations: 1000000
+	Successes (at least 1 caller): 666582
+	Success Rate (1+ caller): 0.666582
+	Successes (at least 2 callers): 399611
+	Success Rate (2+ caller): 0.399611
+
+92 caller Zoom call
+Simulations: 1000000
+	Successes (at least 1 caller): 666466
+	Success Rate (1+ caller): 0.666466
+	Successes (at least 2 callers): 399663
+	Success Rate (2+ caller): 0.399663
+
+93 caller Zoom call
+Simulations: 1000000
+	Successes (at least 1 caller): 665659
+	Success Rate (1+ caller): 0.665659
+	Successes (at least 2 callers): 399212
+	Success Rate (2+ caller): 0.399212
+
+94 caller Zoom call
+Simulations: 1000000
+	Successes (at least 1 caller): 667015
+	Success Rate (1+ caller): 0.667015
+	Successes (at least 2 callers): 400858
+	Success Rate (2+ caller): 0.400858
+
+95 caller Zoom call
+Simulations: 1000000
+	Successes (at least 1 caller): 665643
+	Success Rate (1+ caller): 0.665643
+	Successes (at least 2 callers): 398991
+	Success Rate (2+ caller): 0.398991
+
+96 caller Zoom call
+Simulations: 1000000
+	Successes (at least 1 caller): 666760
+	Success Rate (1+ caller): 0.66676
+	Successes (at least 2 callers): 400057
+	Success Rate (2+ caller): 0.400057
+
+97 caller Zoom call
+Simulations: 1000000
+	Successes (at least 1 caller): 666501
+	Success Rate (1+ caller): 0.666501
+	Successes (at least 2 callers): 399616
+	Success Rate (2+ caller): 0.399616
+
+98 caller Zoom call
+Simulations: 1000000
+	Successes (at least 1 caller): 667520
+	Success Rate (1+ caller): 0.66752
+	Successes (at least 2 callers): 400309
+	Success Rate (2+ caller): 0.400309
+
+99 caller Zoom call
+Simulations: 1000000
+	Successes (at least 1 caller): 666870
+	Success Rate (1+ caller): 0.66687
+	Successes (at least 2 callers): 400320
+	Success Rate (2+ caller): 0.40032
+
