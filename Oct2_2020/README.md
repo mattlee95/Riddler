@@ -23,4 +23,4 @@ The Probability of selecting a certain type of chocolate as the last peice is as
 
 For permutational statistics problems like this I like to use a psuedo tree down method of solving where I don't necessarily care about each nodes connections, rather the level on the tree it occupies.
 
-For full commented source code for this solution please see (ChocolateBag.py)[https://github.com/mattlee95/Riddler/blob/master/Oct2_2020/ChocolateBag.py]
+For full commented source code for this solution please see [ChocolateBag.py](https://github.com/mattlee95/Riddler/blob/master/Oct2_2020/ChocolateBag.py)
