@@ -25,6 +25,6 @@ I am currenly a Software Engineer at Apple, living in the South Bay Area.
 
 I've got a facination for all things algorithmic and quantitative.
 
-There is a copy of my resume below.  Would love to have a chat if you have any interesting roles in the Software/Quantitative space
+There is a copy of my resume below.  Would love to have a chat if you have any interesting roles in the Data Science/Algorithm Dev/Quantitative space
 
 ![Image: Current Resume](https://github.com/mattlee95/Riddler/blob/master/WIP/MattResume.png)
