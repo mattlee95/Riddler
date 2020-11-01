@@ -5,6 +5,7 @@
 
 |Date|Problem(s)|Language(s)|Tag(s)|Solution Featured?|
 |--|--|--|--|--|
+|October 2nd, 2020|[Last Chocolate](https://github.com/mattlee95/Riddler/tree/master/Oct2_2020)|Python|Probability|
 |May 29th, 2020|[America's Zoom Call](https://github.com/mattlee95/Riddler/tree/master/May29_2020)|C++|Probability|[Yes](https://fivethirtyeight.com/features/can-you-pinpoint-the-planet/)
 |May 15th, 2020|[Disadvantaged Dice](https://github.com/mattlee95/Riddler/tree/master/May15_2020)|C++|Probability|
 |February 21st, 2020|[Coin Game](https://github.com/mattlee95/Riddler/tree/master/Feb21_2020)|Python|Probability, Optimization|
