@@ -1,0 +1,100 @@
+Value of N for Classic: 25579
+
+Starting Game with N = 25579
+Eliminating Player: 19
+Eliminating Player: 51
+Eliminating Player: 52
+Eliminating Player: 36
+Eliminating Player: 22
+Eliminating Player: 26
+Eliminating Player: 6
+Eliminating Player: 43
+Eliminating Player: 37
+Eliminating Player: 9
+Eliminating Player: 44
+Eliminating Player: 45
+Eliminating Player: 35
+Eliminating Player: 53
+Eliminating Player: 56
+Eliminating Player: 17
+Eliminating Player: 38
+Eliminating Player: 28
+Eliminating Player: 29
+Eliminating Player: 20
+Eliminating Player: 50
+Eliminating Player: 41
+Eliminating Player: 49
+Eliminating Player: 7
+Eliminating Player: 34
+Eliminating Player: 24
+Eliminating Player: 47
+Eliminating Player: 57
+Eliminating Player: 11
+Eliminating Player: 15
+Eliminating Player: 59
+Eliminating Player: 60
+Eliminating Player: 25
+Eliminating Player: 48
+Eliminating Player: 32
+Eliminating Player: 42
+Eliminating Player: 27
+Eliminating Player: 33
+Eliminating Player: 13
+Eliminating Player: 14
+Eliminating Player: 10
+Eliminating Player: 23
+Eliminating Player: 30
+Eliminating Player: 4
+Eliminating Player: 54
+Eliminating Player: 2
+Eliminating Player: 3
+Eliminating Player: 39
+Eliminating Player: 8
+Eliminating Player: 21
+Eliminating Player: 16
+Eliminating Player: 18
+Eliminating Player: 46
+Eliminating Player: 55
+Eliminating Player: 58
+Eliminating Player: 31
+Eliminating Player: 5
+Eliminating Player: 12
+Eliminating Player: 40
+Winner for Extra Credit Riddle: 1
+
+Extra Extra Credit: Attempting N = 1
+Extra Extra Credit: Attempting N = 2
+Extra Extra Credit: Attempting N = 3
+Extra Extra Credit: Attempting N = 4
+Extra Extra Credit: Attempting N = 5
+Extra Extra Credit: Attempting N = 6
+Extra Extra Credit: Attempting N = 7
+Extra Extra Credit: Attempting N = 8
+Extra Extra Credit: Attempting N = 9
+Extra Extra Credit: Attempting N = 10
+Extra Extra Credit: Attempting N = 11
+Extra Extra Credit: Attempting N = 12
+Extra Extra Credit: Attempting N = 13
+Extra Extra Credit: Attempting N = 14
+Extra Extra Credit: Attempting N = 15
+Extra Extra Credit: Attempting N = 16
+Extra Extra Credit: Attempting N = 17
+Extra Extra Credit: Attempting N = 18
+Extra Extra Credit: Attempting N = 19
+Extra Extra Credit: Attempting N = 20
+Extra Extra Credit: Attempting N = 21
+Extra Extra Credit: Attempting N = 22
+Extra Extra Credit: Attempting N = 23
+Extra Extra Credit: Attempting N = 24
+Extra Extra Credit: Attempting N = 25
+Extra Extra Credit: Attempting N = 26
+Extra Extra Credit: Attempting N = 27
+Extra Extra Credit: Attempting N = 28
+Extra Extra Credit: Attempting N = 29
+Extra Extra Credit: Attempting N = 30
+Extra Extra Credit: Attempting N = 31
+Extra Extra Credit: Attempting N = 32
+Extra Extra Credit: Attempting N = 33
+Extra Extra Credit: Attempting N = 34
+Lowest N so I win (Extra Extra Credit Riddle): 34
+
