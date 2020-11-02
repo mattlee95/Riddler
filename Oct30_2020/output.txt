@@ -1,66 +1,67 @@
-Value of N for Classic: 25579
+Value of N for Classic: 136232
 
-Starting Game with N = 25579
+Starting Game with N = 136232
 Eliminating Player: 19
 Eliminating Player: 51
 Eliminating Player: 52
-Eliminating Player: 36
-Eliminating Player: 22
-Eliminating Player: 26
-Eliminating Player: 6
-Eliminating Player: 43
-Eliminating Player: 37
-Eliminating Player: 9
-Eliminating Player: 44
-Eliminating Player: 45
-Eliminating Player: 35
-Eliminating Player: 53
-Eliminating Player: 56
-Eliminating Player: 17
-Eliminating Player: 38
-Eliminating Player: 28
-Eliminating Player: 29
-Eliminating Player: 20
-Eliminating Player: 50
-Eliminating Player: 41
-Eliminating Player: 49
-Eliminating Player: 7
-Eliminating Player: 34
-Eliminating Player: 24
-Eliminating Player: 47
-Eliminating Player: 57
-Eliminating Player: 11
-Eliminating Player: 15
-Eliminating Player: 59
-Eliminating Player: 60
-Eliminating Player: 25
-Eliminating Player: 48
-Eliminating Player: 32
-Eliminating Player: 42
-Eliminating Player: 27
-Eliminating Player: 33
-Eliminating Player: 13
-Eliminating Player: 14
-Eliminating Player: 10
-Eliminating Player: 23
-Eliminating Player: 30
-Eliminating Player: 4
-Eliminating Player: 54
-Eliminating Player: 2
-Eliminating Player: 3
-Eliminating Player: 39
-Eliminating Player: 8
-Eliminating Player: 21
-Eliminating Player: 16
-Eliminating Player: 18
-Eliminating Player: 46
-Eliminating Player: 55
-Eliminating Player: 58
-Eliminating Player: 31
-Eliminating Player: 5
-Eliminating Player: 12
 Eliminating Player: 40
-Winner for Extra Credit Riddle: 1
+Eliminating Player: 42
+Eliminating Player: 24
+Eliminating Player: 20
+Eliminating Player: 8
+Eliminating Player: 33
+Eliminating Player: 23
+Eliminating Player: 36
+Eliminating Player: 12
+Eliminating Player: 28
+Eliminating Player: 38
+Eliminating Player: 7
+Eliminating Player: 45
+Eliminating Player: 3
+Eliminating Player: 14
+Eliminating Player: 26
+Eliminating Player: 61
+Eliminating Player: 47
+Eliminating Player: 32
+Eliminating Player: 41
+Eliminating Player: 44
+Eliminating Player: 37
+Eliminating Player: 54
+Eliminating Player: 9
+Eliminating Player: 59
+Eliminating Player: 11
+Eliminating Player: 25
+Eliminating Player: 60
+Eliminating Player: 2
+Eliminating Player: 43
+Eliminating Player: 5
+Eliminating Player: 46
+Eliminating Player: 21
+Eliminating Player: 35
+Eliminating Player: 57
+Eliminating Player: 4
+Eliminating Player: 22
+Eliminating Player: 34
+Eliminating Player: 13
+Eliminating Player: 16
+Eliminating Player: 48
+Eliminating Player: 17
+Eliminating Player: 50
+Eliminating Player: 55
+Eliminating Player: 39
+Eliminating Player: 1
+Eliminating Player: 31
+Eliminating Player: 18
+Eliminating Player: 29
+Eliminating Player: 15
+Eliminating Player: 10
+Eliminating Player: 56
+Eliminating Player: 6
+Eliminating Player: 30
+Eliminating Player: 27
+Eliminating Player: 53
+Eliminating Player: 49
+Winner for Extra Credit Riddle: 58
 
 Extra Extra Credit: Attempting N = 1
 Extra Extra Credit: Attempting N = 2
@@ -96,5 +97,110 @@ Extra Extra Credit: Attempting N = 31
 Extra Extra Credit: Attempting N = 32
 Extra Extra Credit: Attempting N = 33
 Extra Extra Credit: Attempting N = 34
-Lowest N so I win (Extra Extra Credit Riddle): 34
-
+Extra Extra Credit: Attempting N = 35
+Extra Extra Credit: Attempting N = 36
+Extra Extra Credit: Attempting N = 37
+Extra Extra Credit: Attempting N = 38
+Extra Extra Credit: Attempting N = 39
+Extra Extra Credit: Attempting N = 40
+Extra Extra Credit: Attempting N = 41
+Extra Extra Credit: Attempting N = 42
+Extra Extra Credit: Attempting N = 43
+Extra Extra Credit: Attempting N = 44
+Extra Extra Credit: Attempting N = 45
+Extra Extra Credit: Attempting N = 46
+Extra Extra Credit: Attempting N = 47
+Extra Extra Credit: Attempting N = 48
+Extra Extra Credit: Attempting N = 49
+Extra Extra Credit: Attempting N = 50
+Extra Extra Credit: Attempting N = 51
+Extra Extra Credit: Attempting N = 52
+Extra Extra Credit: Attempting N = 53
+Extra Extra Credit: Attempting N = 54
+Extra Extra Credit: Attempting N = 55
+Extra Extra Credit: Attempting N = 56
+Extra Extra Credit: Attempting N = 57
+Extra Extra Credit: Attempting N = 58
+Extra Extra Credit: Attempting N = 59
+Extra Extra Credit: Attempting N = 60
+Extra Extra Credit: Attempting N = 61
+Extra Extra Credit: Attempting N = 62
+Extra Extra Credit: Attempting N = 63
+Extra Extra Credit: Attempting N = 64
+Extra Extra Credit: Attempting N = 65
+Extra Extra Credit: Attempting N = 66
+Extra Extra Credit: Attempting N = 67
+Extra Extra Credit: Attempting N = 68
+Extra Extra Credit: Attempting N = 69
+Extra Extra Credit: Attempting N = 70
+Extra Extra Credit: Attempting N = 71
+Extra Extra Credit: Attempting N = 72
+Extra Extra Credit: Attempting N = 73
+Extra Extra Credit: Attempting N = 74
+Extra Extra Credit: Attempting N = 75
+Extra Extra Credit: Attempting N = 76
+Extra Extra Credit: Attempting N = 77
+Extra Extra Credit: Attempting N = 78
+Extra Extra Credit: Attempting N = 79
+Extra Extra Credit: Attempting N = 80
+Extra Extra Credit: Attempting N = 81
+Extra Extra Credit: Attempting N = 82
+Extra Extra Credit: Attempting N = 83
+Extra Extra Credit: Attempting N = 84
+Extra Extra Credit: Attempting N = 85
+Extra Extra Credit: Attempting N = 86
+Extra Extra Credit: Attempting N = 87
+Extra Extra Credit: Attempting N = 88
+Extra Extra Credit: Attempting N = 89
+Extra Extra Credit: Attempting N = 90
+Extra Extra Credit: Attempting N = 91
+Extra Extra Credit: Attempting N = 92
+Extra Extra Credit: Attempting N = 93
+Extra Extra Credit: Attempting N = 94
+Extra Extra Credit: Attempting N = 95
+Extra Extra Credit: Attempting N = 96
+Extra Extra Credit: Attempting N = 97
+Extra Extra Credit: Attempting N = 98
+Extra Extra Credit: Attempting N = 99
+Extra Extra Credit: Attempting N = 100
+Extra Extra Credit: Attempting N = 101
+Extra Extra Credit: Attempting N = 102
+Extra Extra Credit: Attempting N = 103
+Extra Extra Credit: Attempting N = 104
+Extra Extra Credit: Attempting N = 105
+Extra Extra Credit: Attempting N = 106
+Extra Extra Credit: Attempting N = 107
+Extra Extra Credit: Attempting N = 108
+Extra Extra Credit: Attempting N = 109
+Extra Extra Credit: Attempting N = 110
+Extra Extra Credit: Attempting N = 111
+Extra Extra Credit: Attempting N = 112
+Extra Extra Credit: Attempting N = 113
+Extra Extra Credit: Attempting N = 114
+Extra Extra Credit: Attempting N = 115
+Extra Extra Credit: Attempting N = 116
+Extra Extra Credit: Attempting N = 117
+Extra Extra Credit: Attempting N = 118
+Extra Extra Credit: Attempting N = 119
+Extra Extra Credit: Attempting N = 120
+Extra Extra Credit: Attempting N = 121
+Extra Extra Credit: Attempting N = 122
+Extra Extra Credit: Attempting N = 123
+Extra Extra Credit: Attempting N = 124
+Extra Extra Credit: Attempting N = 125
+Extra Extra Credit: Attempting N = 126
+Extra Extra Credit: Attempting N = 127
+Extra Extra Credit: Attempting N = 128
+Extra Extra Credit: Attempting N = 129
+Extra Extra Credit: Attempting N = 130
+Extra Extra Credit: Attempting N = 131
+Extra Extra Credit: Attempting N = 132
+Extra Extra Credit: Attempting N = 133
+Extra Extra Credit: Attempting N = 134
+Extra Extra Credit: Attempting N = 135
+Extra Extra Credit: Attempting N = 136
+Extra Extra Credit: Attempting N = 137
+Extra Extra Credit: Attempting N = 138
+Extra Extra Credit: Attempting N = 139
+Extra Extra Credit: Attempting N = 140
+Lowest N so I win (Extra Extra Credit Riddle): 140

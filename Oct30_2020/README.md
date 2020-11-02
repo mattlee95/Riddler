@@ -23,15 +23,15 @@ Extra extra credit: What’s the smallest N that would have made you the winner?
 
 What was the smallest value of N the group could have used for this game?
 
-`N = 25579`
+`N = 136232`
 
 Extra credit: Suppose the players were numbered from 1 to 61, with you as Player No. 1, the player to your left as Player No. 2 and so on. Which player won the game?
 
-`Winner of game when N = 25579 = Player 1`
+`Winner of game when N = 136232 = Player 58`
 
 Extra extra credit: What’s the smallest N that would have made you the winner?
 
-`Smallest N where Player 1 (Me) wins the game = 34`
+`Smallest N where Player 1 (Me) wins the game = 140`
 
 ## Solution Methodology
 

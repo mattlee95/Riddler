@@ -4,7 +4,7 @@
 using namespace std;
 
 
-int index_to_elim(int game[60], int index_start, int N)
+int index_to_elim(int game[61], int index_start, int N)
 {
     /*
     Based on where we are starting this round of the game and what the N value
@@ -16,7 +16,7 @@ int index_to_elim(int game[60], int index_start, int N)
 
     while (1)
     {
-        idx = idx % 60;
+        idx = idx % 61;
         if (game[idx] == 0)
         {
             alive_seen++;
@@ -30,7 +30,7 @@ int index_to_elim(int game[60], int index_start, int N)
 }
 
 
-int next_index_alive(int game[60], int index_last_elim)
+int next_index_alive(int game[61], int index_last_elim)
 {
     /*
     Based on the last index to be marked as out of the game, this function
@@ -41,7 +41,7 @@ int next_index_alive(int game[60], int index_last_elim)
 
     while (1)
     {
-        idx = idx % 60;
+        idx = idx % 61;
         if (game[idx] == 0)
         {
             return idx;
@@ -57,8 +57,8 @@ int who_wins(int N, bool verbose)
     Function returns the index of the winner of a game given the starting value of N
     */
 
-    int game[60] = {};
-    int players_remaining = 60;
+    int game[61] = {};
+    int players_remaining = 61;
     int player_start = 0;
     int curr_N;
     int elim_idx;
@@ -110,13 +110,13 @@ int solve_classic()
 {
     /*
     - In the game’s first round, the player 18 spaces to your left is the first to be eliminated
-        - (N - 19) % 60 == 0
+        - (N - 19) % 61 == 0
 
     - The second round sees the elimination of the player 31 spaces to Ricky’s left
-        - (N - 32) % 59 == 0
+        - (N - 32) % 60 == 0
         
     - Zach begins the third round, only to find himself eliminated in a cruel twist of fate
-        - (N - 1) % 58 == 0
+        - (N - 1) % 59 == 0
     */
 
     int i = 0;
@@ -124,8 +124,8 @@ int solve_classic()
 
     while (1)
     {
-        val = 19 + (60 * i);
-        if ((((val - 32) % 59) == 0) && (((val - 1) % 58) == 0))
+        val = 19 + (61 * i);
+        if ((((val - 32) % 60) == 0) && (((val - 1) % 59) == 0))
         {
             return val;
         }
